@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApontadorApiApplication<apontador-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.apontador.ApontadorApiApplication",
+            "projectName": "apontador",
+            "args": ""
+        },
+
+    ]
+}

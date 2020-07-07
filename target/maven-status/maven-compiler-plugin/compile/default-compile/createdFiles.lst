@@ -1,0 +1,11 @@
+br\com\apontador\ApontadorApiApplication.class
+br\com\apontador\respository\ShowAllEmpresasRepository.class
+br\com\apontador\model\Empresa.class
+br\com\apontador\handler\RecursosExceptionHandler.class
+br\com\apontador\service\EmpresaService.class
+br\com\apontador\config\SwaggerConfig.class
+br\com\apontador\model\ShowAllEmpresas.class
+br\com\apontador\model\DetalhesErro.class
+br\com\apontador\controller\EmpresaController.class
+br\com\apontador\respository\EmpresaRepository.class
+br\com\apontador\service\exceptions\RecursoNaoEncontradoException.class

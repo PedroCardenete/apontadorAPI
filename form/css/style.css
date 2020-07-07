@@ -1,0 +1,6546 @@
+* .header-fake {
+    background: none repeat scroll 0 0 #f2f2f2;
+    color: #666;
+    height: 74px;
+    text-align: center;
+    width: 100%
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #ff8207;
+    height: 74px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0
+}
+
+.header.animate-header {
+    height: 60px;
+    box-shadow: 2px 2px 10px #dfdfdd
+}
+
+.header .header-top-menu {
+    position: absolute;
+    width: 940px;
+    height: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0
+}
+
+.header .header-content {
+    font-weight: lighter;
+    height: 59px;
+    margin: 0 auto;
+    text-align: left;
+    width: 960px;
+    padding-top: 15px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+
+.header .header-content .main-search-form {
+    display: inline-block;
+    vertical-align: top
+}
+
+.header .header-content.animate-header-content {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    padding-top: 7px
+}
+
+.header .header-content .apontador-main-logo img {
+    float: left;
+    padding-right: 5px
+}
+
+.header .header-content ul {
+    float: right;
+    list-style: none
+}
+
+.header .header-content ul li {
+    float: left
+}
+
+.header .header-content ul li.promote-business {
+    line-height: 48px;
+    height: 48px;
+    font-size: 13px;
+    vertical-align: top;
+    font-weight: 300
+}
+
+.header .header-content ul li.promote-business a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 5px
+}
+
+.header .header-content ul li.promote-business a:hover {
+    text-decoration: underline
+}
+
+.header .main-query-input-field {
+    margin-right: 0;
+    padding: 0 0 0 0;
+    border: 0;
+    border-radius: 5px;
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 8px;
+    vertical-align: top;
+    width: 464px
+}
+
+.header .main-query-input-field input {
+    background-color: #fff;
+    border: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    color: #666;
+    font-family: open sans, helvetica neue, Arial;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.header .main-query-input-field .main-query-input {
+    width: 220px
+}
+
+.header .main-query-input-field .location-query-input {
+    width: 220px
+}
+
+.header .main-query-input-field .location-pin {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    height: 100%;
+    position: absolute;
+    width: 15px;
+    margin: 11px 0
+}
+
+.header .main-query-input-field .img-replacement {
+    direction: ltr;
+    text-indent: -999px;
+    overflow: hidden
+}
+
+.header .bt-search {
+    background: #f9d036 url(https://clientmanager.apontador-assets.com/prod/carrinho/images/newheader/search-img.png);
+    background: -moz-linear-gradient(top, #f9d036 0, #fac034 100%) url(https://clientmanager.apontador-assets.com/lab/marcas/images/icon_search.png);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9d036), color-stop(100%, #fac034)) url(https://clientmanager.apontador-assets.com/lab/marcas/images/icon_search.png);
+    background: -webkit-linear-gradient(top, #f9d036 0, #fac034 100%) url(https://clientmanager.apontador-assets.com/lab/marcas/images/icon_search.png);
+    background: -o-linear-gradient(top, #f9d036 0, #fac034 100%) url(https://clientmanager.apontador-assets.com/lab/marcas/images/icon_search.png);
+    background: -ms-linear-gradient(top, #f9d036 0, #fac034 100%) url(https://clientmanager.apontador-assets.com/lab/marcas/images/icon_search.png);
+    background: linear-gradient(to bottom, #f9d036 0, #fac034 100%) url(https://clientmanager.apontador-assets.com/lab/marcas/images/icon_search.png);
+    background-position: 20px 7px;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    color: #ff8207;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    height: 30px;
+    margin: 8px 0 0 4px;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 60px
+}
+
+.header .bt-search:hover {
+    background-color: #e7c132
+}
+
+.footer {
+    clear: both;
+    background: #333;
+    text-align: center;
+    overflow: auto;
+    padding: 35px 0 0
+}
+
+.footer p {
+    margin-bottom: 0!important
+}
+
+.footer .links {
+    margin: 0 auto;
+    width: 960px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px!important;
+    color: #a9a9aa;
+    padding-bottom: 40px;
+    overflow: auto;
+    line-height: 18px
+}
+
+.footer .links a {
+    color: #f88d3d;
+    text-decoration: none
+}
+
+.footer .links a:hover {
+    text-decoration: underline
+}
+
+.footer .footer-left {
+    width: 800px;
+    float: left
+}
+
+.footer .footer-left .topic-list p {
+    font-size: 12px!important;
+    float: left
+}
+
+.footer .footer-left .topic-list p:first-letter {
+    text-transform: uppercase
+}
+
+.footer .footer-left .topic-list ul {
+    list-style: none;
+    display: block
+}
+
+.footer .footer-left .topic-list ul li {
+    color: #f88d3d;
+    display: inline-block
+}
+
+.footer .footer-left .topic-list ul li a {
+    padding: 0 5px;
+    font-weight: 300
+}
+
+.footer .social-network {
+    float: right;
+    padding-top: 25px
+}
+
+.footer .social-network ul {
+    list-style: none
+}
+
+.footer .social-network ul li {
+    float: left
+}
+
+.footer .social-network ul li a {
+    text-indent: -9999px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/HeaderFooter/sprite_social-network.png?v=1) no-repeat;
+    display: block
+}
+
+.footer .social-network ul li:last-child {
+    padding-right: 0
+}
+
+.footer .social-network ul .home-facebook {
+    background-position: 0 0
+}
+
+.footer .social-network ul .home-twitter {
+    background-position: -40px 0
+}
+
+.footer .social-network ul .home-google {
+    background-position: -83px 0
+}
+
+.footer .social-network ul .home-linkedin {
+    background-position: -122px 0
+}
+
+.footer .site-name {
+    background-color: #e36709;
+    clear: both;
+    height: 61px;
+    text-align: center
+}
+
+.footer .site-name .container {
+    height: 100%;
+    margin: 0 auto;
+    width: 960px
+}
+
+.footer .site-name .container a {
+    color: #fff;
+    font-size: 25px;
+    line-height: 60px;
+    text-decoration: none;
+    font-weight: 300
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    background: #fff
+}
+
+.mais-header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #ff8207;
+    height: 74px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000
+}
+
+.mais-header .header-content {
+    margin: 0 auto;
+    max-width: 960px;
+    text-align: left;
+    padding-top: 15px
+}
+
+.mais-header .header-content .logo {
+    float: left;
+    border-right: 1px solid #e2e1e1;
+    padding-right: 8px
+}
+
+.mais-header .header-content p.slogan {
+    font-weight: 300;
+    font-size: 23px;
+    color: #fff;
+    float: left;
+    padding: 10px 0 5px 16px
+}
+
+.mais-header .header-content .central-info {
+    float: left;
+    font-size: 16px;
+    padding-left: 39px;
+    color: #fff;
+    margin-top: 8px
+}
+
+.mais-header .header-content .central-info div {
+    float: left
+}
+
+.mais-header .header-content .central-info p.horario {
+    font-size: 11px;
+    color: #fff
+}
+
+.mais-header .header-content .central-info p.telefone {
+    font-size: 25px;
+    color: #666;
+    font-weight: 300;
+    padding: 2px 0 0 15px;
+    color: #fff
+}
+
+.mais-header .header-content .callUs .btnCallus {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    position: relative;
+    padding: 8px 10px 8px 30px;
+    border: 0;
+    color: #fff;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    float: left;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: none;
+    margin: 9px 0 0 125px;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-telefone.png?v=3) left no-repeat;
+    background-color: #ffbf13;
+    background-size: 20px 20px;
+    background-position: 5px 5px
+}
+
+.mais-header .header-content .callUs .closeIframeBlap {
+    border: 2px solid #fff;
+    background: #000;
+    color: #fff;
+    width: 8px;
+    height: 8px;
+    line-height: 7px;
+    text-indent: 1px;
+    padding: 8px;
+    text-shadow: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    margin: 12px 0 0 581px
+}
+
+.mais-header .header-content .callUs .iFrameBlap {
+    width: 100%!important;
+    position: absolute;
+    margin: 56px 0 0 346px;
+    display: none;
+    z-index: 1000000
+}
+
+.mais-header .header-content .callUs .iFrameBlap:after,
+.mais-header .header-content .callUs .iFrameBlap:before {
+    bottom: 100%;
+    left: 87%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute
+}
+
+.mais-header .header-content .callUs .iFrameBlap:after {
+    border-bottom-color: #fff;
+    border-width: 12px;
+    margin-left: -12px
+}
+
+.mais-header .header-content .callUs .iFrameBlap iframe {
+    width: 100%!important;
+    height: 213px!important
+}
+
+#slide0 {
+    padding-top: 70px
+}
+
+.entrar {
+    float: right;
+    padding: 6px 0 0 77px
+}
+
+.menu {
+    height: 40px;
+    background-color: rgba(0, 0, 1, .66);
+    position: fixed;
+    width: 100%;
+    top: 74px;
+    z-index: 30
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0 auto;
+    width: 980px;
+    cursor: pointer
+}
+
+.menu ul li {
+    float: left;
+    padding-top: 11px
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding-right: 30px
+}
+
+.menu ul li a:hover {
+    color: #ff8207
+}
+
+.menu ul li a.active {
+    color: #ff8207
+}
+
+.menu ul li:last-child {
+    float: right;
+    background: #ff8207 url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icone-cadeado.png?v=2) no-repeat;
+    background-position: 17px 14px;
+    width: 183px;
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.menu ul li:last-child a {
+    padding-right: 0;
+    font-weight: 400
+}
+
+.menu ul li:last-child a p.acesso-title {
+    color: #fff;
+    padding-left: 15px;
+    font-weight: 300
+}
+
+.menu ul li:last-child a p.info-acesso {
+    color: #ffeb0a;
+    font-size: 11px;
+    padding-left: 19px;
+    margin-top: -2px;
+    font-weight: 300
+}
+
+.vitrine {
+    color: #fff;
+    width: 100%;
+    height: 332px;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/bg-apt.jpg?v=3) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding-top: 25px
+}
+
+.sobre {
+    margin: 30px auto 0;
+    width: 980px
+}
+
+.sobre img {
+    float: right;
+    margin-top: 41px;
+    width: 400px
+}
+
+.sobre h1 {
+    font-size: 32px;
+    font-weight: 300;
+    padding-top: 45px;
+    text-align: left
+}
+
+.sobre h1 strong {
+    color: #f47820;
+    font-weight: 700
+}
+
+.sobre h2 {
+    padding-bottom: 50px
+}
+
+.sobre h2 a {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-arrow.png?v=3) right no-repeat;
+    color: #d8d6d3;
+    font-size: 20px;
+    float: left;
+    padding: 20px 0;
+    text-align: left;
+    text-decoration: none;
+    width: 270px
+}
+
+.sobre h2 a:hover {
+    color: #fff
+}
+
+a.confira-planos {
+    color: #fff;
+    background: #3cbd3f;
+    font-size: 18px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 0;
+    padding: 10px 25px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none
+}
+
+a.confira-planos:hover {
+    background: #32a035;
+    color: #d8d6d3
+}
+
+.diferenciais ul {
+    list-style: none;
+    margin: 0 auto;
+    width: 980px
+}
+
+.diferenciais ul li {
+    float: left;
+    width: 260px;
+    padding: 50px 30px
+}
+
+.diferenciais ul li h4 {
+    color: #f6934d;
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 25px
+}
+
+.diferenciais ul li p {
+    font-size: 16px;
+    color: #838383;
+    font-weight: 300
+}
+
+.funcionalidades {
+    background: #f6f6f6;
+    clear: both
+}
+
+.funcionalidades ul {
+    list-style: none;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    width: 980px;
+    overflow: auto;
+    overflow-y: hidden
+}
+
+.funcionalidades ul li {
+    float: left;
+    padding: 30px 30px 0;
+    width: 180px;
+    font-weight: 400
+}
+
+.funcionalidades ul li:last-child {
+    width: 218px;
+    padding-right: 0
+}
+
+.funcionalidades h2 {
+    color: #4985bc;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 60px 0 30px
+}
+
+.funcionalidades h2 strong {
+    font-weight: 700
+}
+
+.funcionalidades p.titulo-funcionalidade {
+    font-size: 18px;
+    color: #f6934d;
+    padding: 25px 0 12px
+}
+
+.bannerViagem {
+    margin-top: 30px
+}
+
+.mensagem-footer {
+    color: #fff;
+    width: 100%;
+    height: 290px;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/bg-auxiliar.jpg?v=3) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 25px
+}
+
+.mensagem-footer .sua-empresa-na-internet {
+    margin: 0 auto;
+    max-width: 960px
+}
+
+.mensagem-footer .sua-empresa-na-internet .info-aptmais {
+    float: left
+}
+
+.mensagem-footer .sua-empresa-na-internet .info-aptmais h1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 35px;
+    width: 465px
+}
+
+.mensagem-footer .sua-empresa-na-internet .info-aptmais h1 strong {
+    color: #f47820;
+    font-weight: 700
+}
+
+.mensagem-footer .sua-empresa-na-internet .telefone-central {
+    float: right;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-telefone.png?v=3) top left no-repeat;
+    background-position-y: 4px;
+    width: 155px;
+    text-align: left;
+    padding-left: 75px;
+    margin-top: 36px
+}
+
+.mensagem-footer .sua-empresa-na-internet .telefone-central p {
+    font-size: 18px;
+    padding-bottom: 10px
+}
+
+.mensagem-footer .sua-empresa-na-internet .telefone-central p strong {
+    font-size: 22px
+}
+
+.como-funciona {
+    margin: 0 auto;
+    width: 980px;
+    padding-top: 50px
+}
+
+.como-funciona h1 {
+    text-align: left;
+    color: #333;
+    font-size: 24px
+}
+
+section.poi-description {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/como-funciona.jpg?v=3) no-repeat;
+    background-position: 0 80px;
+    position: relative;
+    height: 890px;
+    margin: 100px auto 130px;
+    padding-top: 40px;
+    width: 960px
+}
+
+section.poi-description h1 {
+    color: #333;
+    float: left;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: -25px
+}
+
+section.poi-description h3 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px
+}
+
+section.poi-description div {
+    color: #868686;
+    position: absolute;
+    width: 160px
+}
+
+section.poi-description div h4 {
+    font-size: 16px
+}
+
+section.poi-description div p {
+    font-size: 11px
+}
+
+section.poi-description div.trade-logo {
+    top: 48px;
+    left: 19px
+}
+
+section.poi-description div.page-edition {
+    top: 394px;
+    left: 19px
+}
+
+section.poi-description div.ratings {
+    top: 604px;
+    left: 19px
+}
+
+section.poi-description div.coupons {
+    top: 15px;
+    left: 787px
+}
+
+section.poi-description div.additional-info {
+    top: 315px;
+    left: 833px
+}
+
+section.poi-description div.no-competition {
+    top: 646px;
+    left: 790px
+}
+
+.outras-vantagens {
+    width: 980px;
+    margin: 0 auto;
+    overflow: auto;
+    overflow-y: hidden;
+    padding-bottom: 30px
+}
+
+.outras-vantagens div {
+    overflow: auto;
+    overflow-y: hidden
+}
+
+.outras-vantagens h3 {
+    text-align: left;
+    color: #333;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 25px
+}
+
+.outras-vantagens p {
+    padding-bottom: 20px
+}
+
+.texto-vantagem {
+    font-size: 16px;
+    width: 460px;
+    text-align: left
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.painel-estatisticas ul.bullets {
+    list-style: none;
+    text-align: left
+}
+
+.painel-estatisticas ul.bullets li {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/bullets.jpg?v=3) no-repeat;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 25px
+}
+
+.destaque-nas-buscas {
+    padding-top: 30px
+}
+
+.destaque-nas-buscas .texto-vantagem {
+    padding-top: 35px
+}
+
+.atendimento-personalizado {
+    padding: 80px 0
+}
+
+.atendimento-personalizado .imagem-vantagem {
+    padding-top: 50px
+}
+
+.mais-presenca .imagem-vantagem {
+    padding-left: 50px
+}
+
+.por-que-anunciar {
+    margin: 0 auto;
+    width: 100%
+}
+
+.por-que-anunciar .milhoes {
+    width: 100%;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/porque-anunciar-bg.jpg?v=3) no-repeat;
+    height: 496px;
+    background-size: 100%
+}
+
+.por-que-anunciar .milhoes .milhoes-content {
+    width: 980px;
+    margin: 0 auto
+}
+
+.por-que-anunciar .milhoes .milhoes-content h1 {
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 100
+}
+
+.por-que-anunciar .milhoes .milhoes-content h3 {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 100
+}
+
+.por-que-anunciar .milhoes .milhoes-content .imagem-centro {
+    margin-left: -90px;
+    margin-top: 32px
+}
+
+.por-que-anunciar .perfil {
+    width: 100%
+}
+
+.por-que-anunciar .perfil .perfil-content {
+    width: 980px;
+    margin: 0 auto
+}
+
+.por-que-anunciar .perfil .perfil-content h1 {
+    color: #575757;
+    font-size: 29px;
+    text-align: left;
+    padding-top: 130px;
+    font-weight: 100
+}
+
+.por-que-anunciar .perfil .perfil-content .information {
+    display: inline-flex;
+    width: 100%
+}
+
+.por-que-anunciar .perfil .perfil-content .information .circle {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    height: 182px;
+    padding-top: 44px;
+    margin-top: 40px
+}
+
+.por-que-anunciar .perfil .perfil-content .information .circle label {
+    font-size: 20px;
+    line-height: 30px
+}
+
+.por-que-anunciar .perfil .perfil-content .information .circle strong {
+    font-size: 20px
+}
+
+.por-que-anunciar .perfil .perfil-content .information .circle.blue {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/porque-anunciar-circle-blue.jpg?v=3) no-repeat;
+    background-position: 68px 0
+}
+
+.por-que-anunciar .perfil .perfil-content .information .circle.green {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/porque-anunciar-circle-green.jpg?v=3) no-repeat;
+    background-position: 68px 0
+}
+
+.por-que-anunciar .perfil .perfil-content .information .circle.red {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/porque-anunciar-circle-red.jpg?v=3) no-repeat;
+    background-position: 68px 0
+}
+
+.por-que-anunciar .curiosidades {
+    width: 100%;
+    background: #3a3838;
+    height: 570px;
+    margin-top: 40px
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content {
+    width: 980px;
+    margin: 0 auto
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content h1 {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/porque-anunciar-icon-curiosidades.png?v=3) no-repeat;
+    color: #fff;
+    background-position: 340px 53px;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 100
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content .information {
+    display: inline-flex;
+    width: 100%
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content .information .quadrado {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    height: 182px;
+    padding-top: 44px;
+    margin-top: 70px
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content .information .quadrado label {
+    font-size: 20px;
+    line-height: 30px
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content .information .quadrado strong {
+    font-size: 20px
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content .information .quadrado span {
+    background: #fff;
+    width: 253px;
+    margin-left: 1px;
+    height: 100px;
+    text-align: center;
+    margin-top: 158px;
+    display: block;
+    padding: 21px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content .information .quadrado span label {
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content .information .quadrado.trofeu {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/porque-anunciar-trofeu.jpg?v=3) no-repeat
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content .information .quadrado.twitter {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/porque-anunciar-pc-twitter.jpg?v=3) no-repeat
+}
+
+.por-que-anunciar .curiosidades .curiosidades-content .information .quadrado.maracana {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/porque-anunciar-maracana.jpg?v=3) no-repeat
+}
+
+.por-que-anunciar .negocios {
+    padding-bottom: 10px;
+    overflow: auto;
+    overflow-y: hidden
+}
+
+.por-que-anunciar .negocios img {
+    padding-right: 60px
+}
+
+.por-que-anunciar .perfil-audiencia {
+    padding-bottom: 20px;
+    overflow: auto;
+    overflow-y: hidden
+}
+
+.por-que-anunciar .perfil-audiencia ul {
+    list-style: none
+}
+
+.por-que-anunciar .perfil-audiencia ul li {
+    float: left;
+    text-align: center;
+    padding: 50px 60px;
+    font-size: 18px
+}
+
+.por-que-anunciar .perfil-audiencia ul li p {
+    width: 200px
+}
+
+.por-que-anunciar .perfil-audiencia ul li img {
+    padding-bottom: 20px
+}
+
+.por-que-anunciar .comscore {
+    text-align: right
+}
+
+.planos {
+    margin: 0 auto;
+    width: 980px;
+    padding: 140px 0 80px;
+    overflow: auto;
+    overflow: hidden
+}
+
+.planos h1 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    padding-bottom: 18px;
+    font-weight: 300
+}
+
+.plano {
+    width: 235px;
+    background: #efefef;
+    float: left;
+    margin: 50px 5px 0 0
+}
+
+.plano ul {
+    list-style: none;
+    padding-bottom: 35px;
+    text-align: left
+}
+
+.plano ul li {
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 13px;
+    padding: 10px 0
+}
+
+.plano ul li a {
+    color: #666;
+    font-size: 12px;
+    text-decoration: none
+}
+
+.plano ul li img {
+    float: right
+}
+
+.plano a.tooltip-plano {
+    cursor: default;
+    display: inline;
+    position: relative
+}
+
+.plano a.tooltip-plano span {
+    background: #000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    padding: 20px;
+    text-align: left;
+    visibility: hidden;
+    width: 180px
+}
+
+.plano a.tooltip-plano span strong {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px
+}
+
+.plano a.tooltip-plano:hover.tooltip-plano span {
+    visibility: visible;
+    opacity: .8;
+    top: 20px;
+    left: -5px;
+    margin-left: 0;
+    z-index: 999
+}
+
+.plano .titulo {
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px #000
+}
+
+.ico_help {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/ico_tooltip.png?v=3) no-repeat;
+    width: 22px;
+    height: 22px;
+    float: left;
+    display: block;
+    margin-right: 10px
+}
+
+.topo-plano {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/bg-plano-cinza.png?v=3) top no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 18px 10px 45px
+}
+
+.topo-plano h2 {
+    font-weight: 700;
+    border-bottom: 1px solid #656667;
+    padding-bottom: 10px;
+    font-size: 26px
+}
+
+.topo-plano .valor-dia {
+    border-top: 1px solid #707172;
+    padding: 8px 0 5px
+}
+
+.topo-plano .reais {
+    font-size: 12px;
+    position: relative;
+    top: -13px
+}
+
+.topo-plano .valor {
+    font-size: 34px;
+    font-weight: 700
+}
+
+.topo-plano .valor-mensal {
+    font-size: 12px;
+    padding-bottom: 14px
+}
+
+.topo-plano .experimente {
+    background: #85cc00;
+    background: -moz-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #85cc00), color-stop(100%, #619e00));
+    background: -webkit-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -o-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -ms-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: linear-gradient(to bottom, #85cc00 0%, #619e00 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#85cc00', endColorstr='#619e00', GradientType=0);
+    border-bottom: solid 3px #416e00;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    color: #fff;
+    display: block;
+    line-height: 35px;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 155px;
+    vertical-align: middle
+}
+
+.topo-plano .experimente:hover {
+    background: #619e00;
+    background: -moz-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #619e00), color-stop(99%, #85cc00));
+    background: -webkit-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -o-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -ms-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: linear-gradient(to bottom, #619e00 0%, #85cc00 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#619e00', endColorstr='#85cc00', GradientType=0)
+}
+
+.topo-plano-gold {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/bg-plano-laranja.png?v=3) top no-repeat;
+    color: #fff;
+    padding: 18px 10px 61px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover
+}
+
+.topo-plano-gold h2 {
+    font-weight: 700;
+    border-bottom: 1px solid #da600a;
+    padding-bottom: 10px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    width: 235px;
+    position: absolute
+}
+
+.topo-plano-gold .valor {
+    font-size: 34px;
+    font-weight: 700
+}
+
+.topo-plano-gold .valor-mensal {
+    font-size: 12px;
+    padding-bottom: 14px
+}
+
+.topo-plano-gold .experimente {
+    background: #85cc00;
+    background: -moz-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #85cc00), color-stop(100%, #619e00));
+    background: -webkit-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -o-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -ms-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: linear-gradient(to bottom, #85cc00 0%, #619e00 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#85cc00', endColorstr='#619e00', GradientType=0);
+    border-bottom: solid 3px #416e00;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    color: #fff;
+    display: block;
+    height: 34px;
+    line-height: 33px;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 155px
+}
+
+.topo-plano-gold .experimente:hover {
+    background: #619e00;
+    background: -moz-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #619e00), color-stop(99%, #85cc00));
+    background: -webkit-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -o-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -ms-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: linear-gradient(to bottom, #619e00 0%, #85cc00 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#619e00', endColorstr='#85cc00', GradientType=0)
+}
+
+.plano-gold {
+    width: 255px;
+    background: #efefef;
+    float: left;
+    margin: 27px 5px 0 0
+}
+
+.plano-gold .valor-dia {
+    border-top: 1px solid #e38949;
+    padding: 7px 0 5px;
+    width: 100%;
+    float: left;
+    margin-top: -46px
+}
+
+.plano-gold .valor-mensal {
+    clear: both
+}
+
+.plano-gold .valor {
+    font-size: 38px;
+    font-weight: 700
+}
+
+.plano-gold ul {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 35px
+}
+
+.plano-gold ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 13px
+}
+
+.plano-gold ul li a {
+    color: #666;
+    font-size: 13px;
+    text-decoration: none
+}
+
+.plano-gold ul li img {
+    float: right
+}
+
+.plano-gold a.tooltip-plano {
+    position: relative;
+    display: inline;
+    cursor: default
+}
+
+.plano-gold a.tooltip-plano span {
+    position: absolute;
+    width: 200px;
+    padding: 20px;
+    font-size: 12px;
+    color: #fff;
+    background: #000;
+    text-align: left;
+    visibility: hidden;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 18px
+}
+
+.plano-gold a.tooltip-plano span strong {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px
+}
+
+.plano-gold a.tooltip-plano:hover span {
+    cursor: none;
+    visibility: visible;
+    opacity: .8;
+    top: 20px;
+    left: -5px;
+    margin-left: 0;
+    z-index: 999
+}
+
+.mais-vendido {
+    position: relative;
+    float: left;
+    top: -39px;
+    left: -31px;
+    margin-right: -40px
+}
+
+.depoimentos {
+    margin: 0 auto;
+    width: 980px;
+    padding: 50px 0 80px
+}
+
+.depoimentos h1 {
+    text-align: left;
+    color: #333;
+    font-size: 24px;
+    padding-bottom: 5px
+}
+
+.depoimentos h3 {
+    text-align: left;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.depoimentos_usuarios {
+    margin-top: 80px;
+    overflow: auto;
+    overflow-y: hidden
+}
+
+.depoimentos_usuarios .img-right {
+    padding-right: 30px
+}
+
+.depoimentos_usuarios .img-left {
+    padding-left: 40px
+}
+
+.depoimentos_usuarios .dep {
+    position: relative
+}
+
+.sprite_dep {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/sprite-dep.jpg?v=3) no-repeat;
+    float: left;
+    position: absolute;
+    width: 67px;
+    height: 50px;
+    z-index: 1
+}
+
+.aspa_ini {
+    background-position: 0 0;
+    left: 0;
+    top: 10px
+}
+
+.aspa_fim {
+    background-position: -67px 0;
+    right: 0;
+    bottom: 30px
+}
+
+.depoimentos_usuarios .dep p {
+    font-size: 18px;
+    width: 710px;
+    z-index: 2;
+    position: relative;
+    padding: 40px 0 0 10px;
+    text-align: left
+}
+
+.depoimentos_usuarios .dep .autor {
+    font-size: 16px;
+    float: right;
+    margin-top: 18px
+}
+
+.depoimentos_usuarios .dep .autor a {
+    color: #f47820
+}
+
+.fale-conosco {
+    margin: 0 auto;
+    width: 980px;
+    padding-top: 50px
+}
+
+.fale-conosco h1 {
+    text-align: left;
+    color: #333;
+    font-size: 24px;
+    padding-bottom: 20px
+}
+
+.fale-conosco p.hora {
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 60px
+}
+
+.tabs {
+    position: relative;
+    min-height: 400px;
+    clear: both;
+    margin: 50px 0 10px 0
+}
+
+.tab {
+    float: left;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px
+}
+
+.tab label {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #fff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 2%, #ffffff 41%, #c4c4c4 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(2%, #ffffff), color-stop(41%, #ffffff), color-stop(100%, #c4c4c4));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 2%, #ffffff 41%, #c4c4c4 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #ffffff 2%, #ffffff 41%, #c4c4c4 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 2%, #ffffff 41%, #c4c4c4 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 2%, #ffffff 41%, #c4c4c4 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#c4c4c4', GradientType=0);
+    padding: 15px 50px;
+    text-transform: uppercase;
+    color: #0485d6;
+    font-weight: 700
+}
+
+.tab [type=radio] {
+    display: none
+}
+
+.content {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: #fff;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px
+}
+
+.tabs [type=radio]~label {
+    padding: 10px 20px 12px
+}
+
+.tabs [type=radio]:checked~label {
+    background: #fff;
+    border-bottom: 3px solid #fff;
+    z-index: 2;
+    border-top: 3px solid #4a99d2;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px 12px;
+    color: #333
+}
+
+.tabs [type=radio]:checked~label~.content {
+    z-index: 1
+}
+
+.opcao {
+    width: 240px;
+    float: left;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/separado_contato.png?v=3) right 20px no-repeat;
+    margin-left: 35px;
+    padding-top: 30px;
+    height: 310px;
+    text-align: left;
+    padding-right: 30px
+}
+
+.opcao a {
+    color: #0485d6;
+    text-decoration: none
+}
+
+.opcao a:hover {
+    text-decoration: underline
+}
+
+.opcao.last {
+    background: 0 0
+}
+
+.opcao .cabecalho {
+    height: 60px
+}
+
+.opcao .cabecalho p {
+    font-size: 14px;
+    font-weight: 700;
+    float: left;
+    padding-top: 15px
+}
+
+.sprite_fale {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/sprite_fale.png?v=3) no-repeat;
+    width: 65px;
+    float: left;
+    margin-right: 10px
+}
+
+.vendas {
+    background-position: 0 -277px;
+    height: 56px
+}
+
+.duvidas {
+    background-position: -5px -102px;
+    height: 58px
+}
+
+.form {
+    background-position: 0 -160px;
+    height: 57px
+}
+
+.acompanhe {
+    background-position: 0 -219px;
+    height: 56px
+}
+
+.email {
+    background-position: 0 0;
+    height: 48px
+}
+
+a.bt_comprar {
+    background: #85cc00;
+    background: -moz-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #85cc00), color-stop(100%, #619e00));
+    background: -webkit-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -o-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -ms-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: linear-gradient(to bottom, #85cc00 0%, #619e00 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#85cc00', endColorstr='#619e00', GradientType=0);
+    margin-top: 15px;
+    border-bottom: solid 3px #416e00;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    color: #fff;
+    display: block;
+    line-height: 31px;
+    text-align: center;
+    text-decoration: none;
+    width: 126px
+}
+
+a.bt_comprar:hover {
+    background: #619e00;
+    background: -moz-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #619e00), color-stop(99%, #85cc00));
+    background: -webkit-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -o-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -ms-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: linear-gradient(to bottom, #619e00 0%, #85cc00 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#619e00', endColorstr='#85cc00', GradientType=0);
+    text-decoration: none
+}
+
+a.bt_preencher_formulario {
+    background: #85cc00;
+    background: -moz-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #85cc00), color-stop(100%, #619e00));
+    background: -webkit-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -o-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: -ms-linear-gradient(top, #85cc00 0%, #619e00 100%);
+    background: linear-gradient(to bottom, #85cc00 0%, #619e00 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#85cc00', endColorstr='#619e00', GradientType=0);
+    border-bottom: solid 3px #416e00;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+    line-height: 31px;
+    text-align: center;
+    text-decoration: none;
+    width: 180px
+}
+
+a.bt_preencher_formulario:hover {
+    background: #619e00;
+    background: -moz-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #619e00), color-stop(99%, #85cc00));
+    background: -webkit-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -o-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: -ms-linear-gradient(top, #619e00 0%, #85cc00 99%);
+    background: linear-gradient(to bottom, #619e00 0%, #85cc00 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#619e00', endColorstr='#85cc00', GradientType=0);
+    text-decoration: none
+}
+
+a.bt_abrir_chamado {
+    background: #009fdc;
+    background: -moz-linear-gradient(top, #009fdc 0%, #007aa8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #009fdc), color-stop(100%, #007aa8));
+    background: -webkit-linear-gradient(top, #009fdc 0%, #007aa8 100%);
+    background: -o-linear-gradient(top, #009fdc 0%, #007aa8 100%);
+    background: -ms-linear-gradient(top, #009fdc 0%, #007aa8 100%);
+    background: linear-gradient(to bottom, #009fdc 0%, #007aa8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#009fdc', endColorstr='#007aa8', GradientType=0);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    color: #fff;
+    margin-top: 15px;
+    width: 140px;
+    line-height: 31px;
+    text-align: center;
+    text-decoration: none;
+    display: block
+}
+
+a.bt_abrir_chamado:hover {
+    background: #00b1f7;
+    background: -moz-linear-gradient(top, #00b1f7 0%, #0079a7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00b1f7), color-stop(100%, #0079a7));
+    background: -webkit-linear-gradient(top, #00b1f7 0%, #0079a7 100%);
+    background: -o-linear-gradient(top, #00b1f7 0%, #0079a7 100%);
+    background: -ms-linear-gradient(top, #00b1f7 0%, #0079a7 100%);
+    background: linear-gradient(to bottom, #00b1f7 0%, #0079a7 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00b1f7', endColorstr='#0079a7', GradientType=0);
+    text-decoration: none
+}
+
+.carrinho-topo {
+    padding-top: 74px;
+    color: #fff;
+    width: 100%;
+    height: 156px;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/bg-apt.jpg?v=3) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 10px
+}
+
+.steps {
+    margin: 0 auto;
+    width: 980px
+}
+
+.steps ul {
+    float: left;
+    list-style: none;
+    padding-top: 50px
+}
+
+.steps ul li:first-child {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/step1.png?v=3) no-repeat;
+    width: 157px;
+    height: 56px;
+    float: left;
+    position: relative;
+    left: 0;
+    background-size: cover
+}
+
+.steps ul li:first-child p {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-done.png?v=3) left no-repeat;
+    background-position: 12px 9px;
+    text-align: left;
+    padding: 0 0 0 51px;
+    color: #78b8c8;
+    line-height: 14px;
+    font-weight: 300;
+    height: 56px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 91px;
+    font-size: 12px
+}
+
+.steps ul li {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/step.png?v=3) no-repeat;
+    width: 174px;
+    height: 56px;
+    float: left;
+    position: relative;
+    left: -10px
+}
+
+.steps ul li.third {
+    left: -19px!important
+}
+
+.steps ul li p.step3 {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-3.png?v=3) left no-repeat;
+    background-position: 24px 9px;
+    text-align: left;
+    padding: 0 0 0 70px;
+    color: #9acfdb;
+    line-height: 14px;
+    font-weight: 300;
+    height: 56px;
+    vertical-align: middle;
+    display: table-cell
+}
+
+.steps ul li.active p.step3 {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-3active.png?v=3) left no-repeat;
+    background-position: 24px 9px;
+    text-align: left;
+    padding: 0 0 0 70px;
+    color: #c6edfd;
+    line-height: 14px;
+    font-weight: 300;
+    height: 56px;
+    vertical-align: middle;
+    display: table-cell
+}
+
+.steps ul li p.step3-done {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-done.png?v=3) left no-repeat;
+    background-position: 24px 9px;
+    text-align: left;
+    padding: 13px 25px 11px 70px;
+    color: #9acfdb;
+    line-height: 14px;
+    font-weight: 300
+}
+
+.steps ul li.active {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/step-active.png?v=3) no-repeat;
+    width: 174px;
+    height: 56px;
+    float: left;
+    position: relative;
+    left: -10px
+}
+
+.steps ul li p.step2 {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-done.png?v=3) left no-repeat;
+    background-position: 28px 9px;
+    text-align: left;
+    padding: 13px 25px 11px 75px;
+    color: #78b8c8;
+    line-height: 14px;
+    font-weight: 300
+}
+
+.steps ul li.active p.step2 {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-2active.png?v=3) left no-repeat;
+    background-position: 28px 9px;
+    text-align: left;
+    padding: 0 0 0 75px;
+    color: #c6edfd;
+    line-height: 14px;
+    font-weight: 300;
+    height: 56px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 86px
+}
+
+.steps ul li:last-child {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/step.png?v=3) no-repeat;
+    width: 174px;
+    height: 56px;
+    float: left;
+    position: relative;
+    left: -28px
+}
+
+.steps ul li:last-child p.step4 {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-4.png?v=3) left no-repeat;
+    background-position: 24px 9px;
+    text-align: left;
+    padding: 0 0 0 70px;
+    color: #9acfdb;
+    line-height: 14px;
+    font-weight: 300;
+    min-height: 30px;
+    height: 56px;
+    vertical-align: middle;
+    display: table-cell
+}
+
+.steps ul li:last-child.active {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/step-active.png?v=3) no-repeat;
+    width: 174px;
+    height: 56px;
+    float: left;
+    position: relative;
+    left: -28px
+}
+
+.steps ul li:last-child.active p.step4 {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icon-4active.png?v=3) left no-repeat;
+    background-position: 24px 9px;
+    text-align: left;
+    padding: 0 0 0 70px;
+    color: #c6edfd;
+    line-height: 14px;
+    font-weight: 300;
+    min-height: 30px;
+    height: 56px;
+    vertical-align: middle;
+    display: table-cell
+}
+
+input[type=text]::-webkit-input-placeholder {
+    color: #9a9a9a
+}
+
+input[type=text]:-moz-placeholder {
+    color: #9a9a9a
+}
+
+input[type=text]::-moz-placeholder {
+    color: #9a9a9a
+}
+
+input[type=text]:-ms-input-placeholder {
+    color: #9a9a9a
+}
+
+.avancar-ou-retornar {
+    clear: both;
+    padding-top: 20px;
+    text-align: left
+}
+
+.avancar-ou-retornar a.avancar {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/bg-avancar.png?v=3) no-repeat;
+    color: #c6edfd;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 11px 24px 11px 17px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.retornar {
+    font-size: 18px;
+    color: silver;
+    padding-right: 30px;
+    text-decoration: underline
+}
+
+.retornar:hover {
+    text-decoration: none
+}
+
+.cpf {
+    float: left;
+    margin-right: 30px
+}
+
+.cep,
+.cidade,
+.endereco {
+    float: left;
+    margin-right: 10px
+}
+
+div.informacoes {
+    float: right
+}
+
+ul.informacoes-plano {
+    list-style: none
+}
+
+.peridiocidade {
+    padding: 0 0 50px;
+    clear: both;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+
+.peridiocidade ul {
+    list-style: none;
+    clear: both;
+    padding-top: 10px
+}
+
+.peridiocidade ul li div {
+    background: #fcf5ea;
+    color: #847f74;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.peridiocidade ul li div h3 {
+    color: #f47820;
+    font-size: 28px;
+    font-weight: 300;
+    padding-bottom: 10px
+}
+
+.peridiocidade ul li div p {
+    font-size: 18px
+}
+
+.peridiocidade ul li div.active {
+    background: #f47820;
+    color: #ffcba6
+}
+
+.peridiocidade ul li div.active h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    padding-bottom: 10px
+}
+
+.peridiocidade ul li div.active p {
+    color: #fee7d6;
+    font-size: 18px
+}
+
+.icone-plano-escolhido {
+    background: 0 0!important;
+    position: relative;
+    top: -15px;
+    left: -20px;
+    padding: 0!important
+}
+
+.cartao {
+    float: left;
+    margin-right: 30px
+}
+
+.cartao input[type=radio] {
+    position: relative;
+    top: -5px
+}
+
+input[type=text].dados-cartao {
+    width: 580px!important;
+    margin-top: 0!important
+}
+
+.vencimento {
+    width: 48%;
+    margin-right: 2%;
+    border-bottom: 1px solid #757575;
+    padding-bottom: 5px
+}
+
+.vencimento input[type=text] {
+    width: 112px!important;
+    margin-right: 10px!important;
+    margin-bottom: 20px!important
+}
+
+.codigo-seguranca {
+    width: 50%
+}
+
+.term-of-use {
+    float: left;
+    width: 100%;
+    margin-bottom: 24px!important
+}
+
+.term-of-use input.js-term-of-use {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 9px
+}
+
+.term-of-use span {
+    float: left;
+    font-size: 1.4em;
+    width: 90%
+}
+
+.term-of-use span a {
+    color: #6539ba
+}
+
+.processando {
+    margin: 0 auto;
+    width: 980px;
+    padding: 45px 0 80px;
+    color: #838383;
+    text-align: center
+}
+
+.processando h1 {
+    font-weight: 700;
+    font-size: 38px;
+    padding-bottom: 10px
+}
+
+.processando p {
+    color: #838383;
+    font-size: 17px;
+    padding-bottom: 15px
+}
+
+p.nota {
+    text-align: left;
+    font-size: 17px;
+    padding-top: 5px
+}
+
+a.tooltip {
+    outline: none;
+    position: relative;
+    top: -57px;
+    left: -22px;
+    display: inline;
+    float: right
+}
+
+a.tooltip span {
+    z-index: 10;
+    display: none;
+    padding: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    top: -35px;
+    left: 38px
+}
+
+a.tooltip:hover span {
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid #e3dede;
+    background: #fffaf0
+}
+
+a.tooltip span {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px
+}
+
+a.tooltip span:after,
+a.tooltip span:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+
+a.tooltip span:after {
+    border-color: transparent;
+    border-right-color: #fff;
+    border-width: 10px;
+    margin-top: -10px
+}
+
+a.tooltip span:before {
+    border-color: transparent;
+    border-right-color: #c7c7c7;
+    border-width: 11px;
+    margin-top: -11px
+}
+
+a.finalizar-compra {
+    color: #ccfdc6;
+    background: #3cbd3f;
+    font-size: 18px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 0;
+    padding: 10px 25px;
+    cursor: pointer;
+    text-decoration: none
+}
+
+a.finalizar-compra:hover {
+    background: #32a035;
+    color: #d8d6d3
+}
+
+.bem-vindo {
+    margin: 0 auto;
+    width: 980px
+}
+
+.bem-vindo img {
+    float: right
+}
+
+.mensagem {
+    float: left;
+    padding-top: 5px
+}
+
+.mensagem h1 {
+    text-align: left;
+    font-size: 44px;
+    font-weight: 300;
+    padding-top: 45px
+}
+
+.mensagem h1 strong {
+    color: #f47820;
+    font-weight: 700
+}
+
+h2.cinza {
+    font-weight: 300;
+    font-size: 28px;
+    text-align: left;
+    width: 740px
+}
+
+a.ver-painel {
+    background: #f47820 url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icone-cadeado.png?v=3) no-repeat;
+    background-position: 17px 9px;
+    width: 200px;
+    height: 42px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    color: #ffd5b8;
+    line-height: 40px;
+    padding-left: 25px;
+    font-size: 17px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px
+}
+
+a.ver-painel:hover {
+    background: #cd661d url(https://clientmanager.apontador-assets.com/prod/carrinho/images/icone-cadeado.png?v=3) no-repeat;
+    background-position: 17px 9px
+}
+
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    vertical-align: top
+}
+
+#inline1 {
+    width: 400px;
+    padding-top: 25px
+}
+
+.fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8020
+}
+
+.fancybox-skin {
+    position: relative;
+    background: #f9f9f9;
+    color: #444;
+    text-shadow: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.fancybox-opened {
+    z-index: 8030
+}
+
+.fancybox-opened .fancybox-skin {
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .5)
+}
+
+.fancybox-outer,
+.fancybox-inner {
+    position: relative
+}
+
+.fancybox-inner {
+    overflow: hidden
+}
+
+.fancybox-error {
+    color: #444;
+    font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+    white-space: nowrap
+}
+
+#fancybox-loading,
+.fancybox-close,
+.fancybox-prev span,
+.fancybox-next span {
+    background-image: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/fancybox_sprite.png?v=3)
+}
+
+#fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -22px;
+    background-position: 0 -108px;
+    opacity: .8;
+    cursor: pointer;
+    z-index: 8060
+}
+
+#fancybox-loading div {
+    width: 44px;
+    height: 44px;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/fancybox_loading.gif?v=3) center center no-repeat
+}
+
+.fancybox-close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040
+}
+
+.fancybox-tmp {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+    visibility: hidden;
+    max-width: 99999px;
+    max-height: 99999px;
+    overflow: visible!important
+}
+
+.fancybox-lock {
+    overflow: hidden!important;
+    width: auto
+}
+
+.fancybox-lock body {
+    overflow: hidden!important
+}
+
+.fancybox-lock-test {
+    overflow-y: hidden!important
+}
+
+.fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: none;
+    z-index: 8010;
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/fancybox_overlay.png?v=3)
+}
+
+.fancybox-overlay-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0
+}
+
+.fancybox-lock .fancybox-overlay {
+    overflow: auto;
+    overflow-y: scroll
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min--moz-device-pixel-ratio:1.5),
+only screen and (min-device-pixel-ratio:1.5) {
+    #fancybox-loading,
+    .fancybox-close,
+    .fancybox-prev span,
+    .fancybox-next span {
+        background-image: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/fancybox_sprite2x.png?v=3);
+        background-size: 44px 152px
+    }
+    #fancybox-loading div {
+        background-image: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/fancybox_loading2x.gif?v=3);
+        background-size: 24px 24px
+    }
+}
+
+.fancybox-iframe {
+    width: 100%;
+    height: 100%
+}
+
+.error-line-box {
+    position: absolute
+}
+
+.error-line-box img {
+    float: left;
+    display: block
+}
+
+.error-line-box .error-text {
+    line-height: 22px;
+    float: left;
+    display: block;
+    margin-left: 5px;
+    color: #f05252;
+    font-weight: 700
+}
+
+p.more-info {
+    text-align: left
+}
+
+p.more-info.items {
+    margin: 10px 0
+}
+
+p.more-info.italic {
+    font-style: italic
+}
+
+p.more-info a {
+    color: #00f
+}
+
+section.results {
+    float: left;
+    width: 100%;
+    margin-top: 48px
+}
+
+section.results .container {
+    width: 100%;
+    max-width: 946px;
+    display: table;
+    box-sizing: border-box
+}
+
+section.results p {
+    font-size: 1.6em;
+    float: left;
+    width: 100%;
+    color: rgba(0, 0, 0, .54);
+    margin-bottom: 16px
+}
+
+section.results p:last-child {
+    margin-bottom: 0
+}
+
+section.contrato {
+    margin: 0 auto;
+    width: 870px;
+    text-align: left;
+    padding: 140px 35px 30px;
+    position: relative;
+    font-size: 1.2em;
+    line-height: 16px
+}
+
+section.contrato .container {
+    max-width: 946px
+}
+
+section.contrato p {
+    margin-top: 15px
+}
+
+section.contrato h2 {
+    display: block;
+    text-align: center;
+    font-size: 16px
+}
+
+section.contrato .w400 {
+    width: 400px
+}
+
+section.contrato .left {
+    float: left
+}
+
+section.contrato .right {
+    float: right
+}
+
+section.contrato ol {
+    list-style: none
+}
+
+section.contrato ol li {
+    margin-bottom: 5px
+}
+
+section.contrato ol li ol {
+    font-size: 11px
+}
+
+section.contrato ol li strong {
+    line-height: 40px
+}
+
+section.contrato a {
+    color: #0485d6
+}
+
+section.contrato hr {
+    border: 0;
+    background: #cdc9c3;
+    width: 100%
+}
+
+section.contrato .clear {
+    clear: both
+}
+
+section.contrato .ml55 {
+    margin-left: 55px
+}
+
+select {
+    width: 80px;
+    height: 48px;
+    font-size: 16px;
+    padding-left: 4px;
+    color: #666;
+    position: relative;
+    cursor: pointer;
+    margin: 13px 20px 20px 0;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: 0 0;
+    background-color: #fff
+}
+
+.carrinho {
+    margin: 0 auto;
+    width: 980px;
+    padding: 45px 0 80px;
+    color: #838383
+}
+
+.carrinho h1 {
+    font-weight: 300;
+    font-size: 28px;
+    text-align: left;
+    width: 650px
+}
+
+.carrinho h1 strong {
+    font-weight: 700
+}
+
+.carrinho h1.blue {
+    color: #34aadc!important
+}
+
+.carrinho h2 {
+    color: #838383;
+    float: left;
+    font-size: 20px;
+    padding-bottom: 15px
+}
+
+.carrinho .order-id {
+    clear: both;
+    text-align: left;
+    font-size: 20px;
+    line-height: 80px;
+    color: #6a7aff
+}
+
+.carrinho form {
+    text-align: left;
+    padding-top: 55px
+}
+
+.carrinho form label {
+    font-size: 20px
+}
+
+.carrinho form select.error {
+    border: 1px solid #f05252
+}
+
+.carrinho a.js-waiting {
+    color: #ccfdc6;
+    background: #3cbd3f;
+    font-size: 18px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 0;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: none
+}
+
+.plano .discount,
+.plano-gold .discount {
+    font-size: 12px
+}
+
+.plano .discount .original-price,
+.plano-gold .discount .original-price {
+    text-decoration: line-through
+}
+
+.plano .min-duration,
+.plano-gold .min-duration {
+    font-size: 12px
+}
+
+.plano select,
+.plano-gold select {
+    font-size: 14px;
+    height: 30px;
+    width: 174px;
+    margin: 0 20px 20px;
+    padding: 0 0 0 10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: 0 0;
+    background-color: #fff;
+    border: 0 solid #d1dde1
+}
+
+.plano .valor-mensal,
+.plano-gold .valor-mensal {
+    height: 14px
+}
+
+.choosed-plan a.tooltips {
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    display: none
+}
+
+.choosed-plan a.tooltips img {
+    vertical-align: top
+}
+
+.choosed-plan a.tooltips span {
+    position: absolute;
+    width: 180px;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #fff;
+    background: #000;
+    text-align: left;
+    visibility: hidden;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.choosed-plan a.tooltips span strong {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px
+}
+
+.choosed-plan a:hover.tooltips span {
+    visibility: visible;
+    opacity: .8;
+    top: 30px;
+    left: -196px;
+    margin-left: 20px;
+    z-index: 999
+}
+
+section.search-poi {
+    width: 960px;
+    margin: 0 auto;
+    padding: 110px 0 50px;
+    text-align: left;
+    padding-bottom: 81px
+}
+
+section.search-poi a {
+    color: #f47820;
+    text-decoration: underline
+}
+
+section.search-poi a:hover {
+    text-decoration: none
+}
+
+section.search-poi h1 {
+    text-align: left;
+    color: #333;
+    font-size: 24px
+}
+
+section.search-poi .instructions {
+    font-size: 18px;
+    border-bottom: solid 1px #eaeae8;
+    padding-bottom: 10px
+}
+
+section.search-poi label {
+    font-size: 20px;
+    display: block
+}
+
+section.search-poi fieldset {
+    border: 0;
+    display: inline-block
+}
+
+section.search-poi select {
+    min-width: 100px;
+    width: auto
+}
+
+section.search-poi .city {
+    min-width: 275px
+}
+
+section.search-poi .results-title {
+    font-size: 18px;
+    margin-bottom: 20px
+}
+
+section.search-poi input[type=text] {
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #5a5a5a;
+    border: 1px solid #c7c7c7;
+    padding: 0 14px;
+    height: 50px;
+    width: 400px;
+    margin: 12px 0 45px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+section.search-poi .green-btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #92dc5e;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-transition: background-color .2s, color .2s;
+    -webkit-transition: background-color .2s, color .2s;
+    -ms-transition: background-color .2s, color .2s;
+    transition: background-color .2s, color .2s;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    margin: 0 0 0 20px
+}
+
+section.search-poi .green-btn:hover {
+    background-color: #317600;
+    color: #fff
+}
+
+section.search-poi .blue-btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #00acdf;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-transition: background-color .2s, color .2s;
+    -webkit-transition: background-color .2s, color .2s;
+    -ms-transition: background-color .2s, color .2s;
+    transition: background-color .2s, color .2s;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    margin: 0 0 0 20px
+}
+
+section.search-poi .blue-btn:hover {
+    background-color: #009bd1;
+    color: #fff
+}
+
+section.search-poi .pois {
+    min-height: 130px
+}
+
+section.search-poi .poi:hover {
+    background-color: #fff9e6
+}
+
+section.search-poi .poi .left-box {
+    display: inline-block;
+    width: 723px
+}
+
+section.search-poi .poi .right-box {
+    display: inline-block;
+    width: 140px;
+    vertical-align: top;
+    line-height: 28px
+}
+
+section.search-poi .poi a.title {
+    color: #000;
+    text-decoration: none
+}
+
+section.search-poi .poi a.title:hover {
+    color: #06c
+}
+
+section.search-poi .poi.card {
+    border: solid 1px #eaeae8;
+    height: auto;
+    margin: 0 0 13px;
+    padding: 15px
+}
+
+section.search-poi .poi.name,
+section.search-poi .poi.aggregate-rating,
+section.search-poi .poi.address,
+section.search-poi .poi.phone {
+    min-width: 540px;
+    width: auto
+}
+
+section.search-poi .poi.name {
+    color: #000;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    width: 540px
+}
+
+section.search-poi .poi.aggregate-rating {
+    margin: 6px 0 0;
+    height: 18px;
+    min-width: 300px
+}
+
+section.search-poi .poi.aggregate-rating .reviews-number {
+    color: #666;
+    font-size: 13px;
+    margin: 0 0 3px 5px
+}
+
+section.search-poi .poi.address {
+    font-size: 14px;
+    height: auto;
+    min-height: 20px;
+    line-height: 16px;
+    text-transform: capitalize;
+    white-space: pre-line;
+    position: relative;
+    margin-left: 16px
+}
+
+section.search-poi .poi.address.sponsored-fixed-width {
+    width: 540px
+}
+
+section.search-poi .poi.address:after {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/sprite-poi.png) no-repeat;
+    background-position: -6px -4px;
+    position: absolute;
+    content: '';
+    display: block;
+    height: 15px;
+    margin: 0 5px 0 0;
+    width: 18px;
+    left: -16px;
+    top: 16px
+}
+
+section.search-poi .poi.zipcode-highlight {
+    background: #fc7d20;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 0 0 5px;
+    padding: 1px 4px;
+    text-align: center;
+    white-space: nowrap
+}
+
+section.search-poi .poi.phone {
+    font-size: 14px;
+    height: 18px;
+    margin: 10px 0 5px;
+    min-width: 300px
+}
+
+section.search-poi .poi.phone:before {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/sprite-poi.png) no-repeat;
+    background-position: -4px -32px;
+    content: '';
+    display: block;
+    height: 15px;
+    margin: 0 5px 0 0;
+    width: 18px
+}
+
+section.search-poi .poi.phone .see-phone:after {
+    content: '';
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/sprite.png) no-repeat -35px -122px;
+    display: inline-block;
+    height: 12px;
+    margin: 0 0 0 3px;
+    width: 10px
+}
+
+section.search-poi .loading {
+    text-align: center
+}
+
+section.register-place-bottom {
+    text-align: center;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: -81px;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 18px
+}
+
+section.register-place-bottom .green-btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #92dc5e;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-transition: background-color .2s, color .2s;
+    -webkit-transition: background-color .2s, color .2s;
+    -ms-transition: background-color .2s, color .2s;
+    transition: background-color .2s, color .2s;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    margin: 0 0 0 20px
+}
+
+section.register-place-bottom .green-btn:hover {
+    background-color: #317600;
+    color: #fff
+}
+
+.coupon-box {
+    margin-bottom: 30px
+}
+
+.coupon-box .loading {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px
+}
+
+.coupon-box .loading img {
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px
+}
+
+.coupon-box .conditions {
+    margin-left: 20px;
+    line-height: 20px
+}
+
+.coupon-box .desc {
+    font-size: 16px;
+    line-height: 26px
+}
+
+.coupon-box .desc span {
+    font-weight: 700
+}
+
+.coupon-box .error {
+    line-height: 22px;
+    color: #f05252;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.coupon-box .error img {
+    margin-right: 5px;
+    vertical-align: middle
+}
+
+section.back-background {
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999
+}
+
+section.register-place {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 100px 0 50px
+}
+
+section.register-place .error {
+    border: 1px solid red!important
+}
+
+@media(max-width:1020px) {
+    section.register-place {
+        padding: 50px 20px
+    }
+}
+
+section.register-place h1 {
+    color: #333;
+    font-size: 24px;
+    display: inline-block
+}
+
+section.register-place h2 {
+    margin-bottom: 20px
+}
+
+section.register-place fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: inline-block
+}
+
+section.register-place fieldset.right-space {
+    margin-right: 20px
+}
+
+@media(max-width:1100px) {
+    section.register-place fieldset.right-space {
+        margin: 0
+    }
+}
+
+section.register-place fieldset.block {
+    display: block
+}
+
+section.register-place fieldset.half {
+    width: 467px
+}
+
+section.register-place fieldset.third {
+    width: 323px
+}
+
+section.register-place fieldset.twothird {
+    width: 612px
+}
+
+section.register-place fieldset.twothird.userMail {
+    display: none
+}
+
+section.register-place fieldset.twothird.mailManager {
+    display: none
+}
+
+@media(max-width:1100px) {
+    section.register-place fieldset {
+        display: block;
+        width: auto!important
+    }
+}
+
+section.register-place input[type=text] {
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #5a5a5a;
+    border: 1px solid #c7c7c7;
+    padding: 0 0 0 14px;
+    height: 50px;
+    width: 100%;
+    margin: 5px 0 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+section.register-place select {
+    width: 100%;
+    margin: 5px 0 30px
+}
+
+section.register-place label {
+    font-size: 20px;
+    display: block
+}
+
+section.register-place a {
+    color: #f47820;
+    text-decoration: underline
+}
+
+section.register-place a:hover {
+    text-decoration: none
+}
+
+section.register-place .top {
+    border-bottom: 1px solid #bebebe;
+    padding-bottom: 10px;
+    margin-bottom: 30px
+}
+
+section.register-place .top .required-info {
+    margin-left: 2px;
+    display: inline-block
+}
+
+@media(max-width:670px) {
+    section.register-place .top .required-info {
+        display: block;
+        text-align: right;
+        margin: 0
+    }
+}
+
+section.register-place .info-cep {
+    display: inline-block;
+    margin: 0 20px 30px 0
+}
+
+@media(min-width:1100px) {
+    section.register-place .info-cep {
+        max-width: 113px
+    }
+}
+
+section.register-place .category-box {
+    width: 610px
+}
+
+section.register-place .phone-box {
+    width: 325px
+}
+
+section.register-place .state-box {
+    width: 155px
+}
+
+section.register-place .logo-infoglobo {
+    margin-top: -30px;
+    margin-left: 792px;
+    position: absolute;
+    display: none
+}
+
+section.register-place .package-box {
+    display: none;
+    width: 310px;
+    margin-right: 22px;
+    margin-left: 25px
+}
+
+section.register-place .userMail {
+    width: 456px;
+    display: none
+}
+
+section.register-place .help {
+    position: absolute;
+    width: 300px;
+    background: rgba(0, 0, 0, .89);
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: -174px
+}
+
+section.register-place .msg-email {
+    float: left;
+    display: block;
+    color: #969696;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: -10px
+}
+
+section.register-place .mailManager {
+    width: 456px;
+    display: none;
+    margin-left: 20px
+}
+
+section.register-place .city-box {
+    width: 428px
+}
+
+section.register-place .idSap-box {
+    display: none;
+    width: 598px
+}
+
+section.register-place .cnpj-box {
+    display: none
+}
+
+section.register-place .is-owner {
+    font-size: 16px
+}
+
+section.register-place .is-owner input {
+    margin-left: 10px
+}
+
+section.register-place .is-owner label {
+    display: inline-block;
+    font-size: 16px
+}
+
+section.register-place .address-number {
+    width: 120px
+}
+
+section.register-place .green-btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    min-width: 500px;
+    padding: 20px;
+    background-color: #92dc5e;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-transition: background-color .2s, color .2s;
+    -webkit-transition: background-color .2s, color .2s;
+    -ms-transition: background-color .2s, color .2s;
+    transition: background-color .2s, color .2s;
+    text-decoration: none;
+    cursor: pointer;
+    border: none
+}
+
+@media(max-width:1100px) {
+    section.register-place .green-btn {
+        display: block;
+        min-width: 0;
+        margin: 0
+    }
+}
+
+section.register-place .green-btn:hover {
+    background-color: #317600;
+    color: #fff
+}
+
+section.register-place .disabled-btn {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    color: #969696;
+    padding: 20px;
+    min-width: 500px;
+    background-color: #e5ebed;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-transition: background-color .2s, color .2s;
+    -webkit-transition: background-color .2s, color .2s;
+    -ms-transition: background-color .2s, color .2s;
+    transition: background-color .2s, color .2s;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    margin: 0 0 0 20px
+}
+
+@media(max-width:1100px) {
+    section.register-place .disabled-btn {
+        display: block;
+        min-width: 0;
+        margin: 0
+    }
+}
+
+section.register-place .text-right {
+    text-align: right
+}
+
+section.register-place .loading {
+    vertical-align: middle;
+    display: none
+}
+
+.autocomplete-suggestions {
+    background-color: #fff;
+    line-height: 22px;
+    text-align: left;
+    border-bottom: 1px solid #c7c7c7;
+    border-left: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    margin-top: 1px;
+    max-height: 200px!important;
+    overflow-y: auto
+}
+
+.autocomplete-suggestions .autocomplete-suggestion {
+    padding-left: 10px;
+    cursor: pointer
+}
+
+.autocomplete-suggestions .autocomplete-suggestion:hover,
+.autocomplete-suggestions .autocomplete-suggestion.autocomplete-selected {
+    background-color: #c7c7c7
+}
+
+@media(max-width:720px) {
+    .show-if-720 {
+        display: none
+    }
+}
+
+@media(max-width:830px) {
+    .show-if-830 {
+        display: none
+    }
+}
+
+@media(max-width:390px) {
+    .show-if-500 {
+        display: none
+    }
+}
+
+section.popup {
+    display: none
+}
+
+section.popup .background {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000
+}
+
+section.popup .panel {
+    background-color: #fff;
+    padding: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: fixed;
+    margin: 0 auto;
+    top: 200px;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    z-index: 1001
+}
+
+section.popup .panel .title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+
+section.popup .panel .content-popup {
+    text-align: left;
+    color: #969aa3;
+    margin-bottom: 40px;
+    font-size: 14px
+}
+
+section.popup .panel .controls {
+    text-align: center
+}
+
+section.popup .panel .btn {
+    width: 146px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-transition: background-color .2s, color .2s;
+    -webkit-transition: background-color .2s, color .2s;
+    -ms-transition: background-color .2s, color .2s;
+    transition: background-color .2s, color .2s;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    line-height: 32px;
+    color: #86919b;
+    background-color: #e5ebed;
+    display: inline-block
+}
+
+section.popup .panel .left-btn {
+    margin-right: 10px
+}
+
+section.popup .panel .right-btn {
+    margin-left: 10px
+}
+
+section.popup .panel .gray-btn {
+    color: #86919b;
+    background-color: #e5ebed
+}
+
+section.popup .panel .gray-btn:hover {
+    background-color: #ff962f;
+    color: #fff
+}
+
+section.popup .panel .green-btn {
+    color: #fff;
+    background-color: #92dc5e
+}
+
+section.popup .panel .green-btn:hover {
+    background-color: #317600;
+    color: #fff
+}
+
+section.popup .panel .red-btn {
+    color: #fff;
+    background-color: #f58379
+}
+
+section.popup .panel .red-btn:hover {
+    background-color: #cd0b0b;
+    color: #fff
+}
+
+.sprites {
+    margin: auto
+}
+
+.sprites.icon-maisclientes,
+.sprites.icon-maisfacil,
+.sprites.icon-maispresenca,
+.sprites.estatisticas,
+.sprites.responder-avaliacao,
+.sprites.organizar-fotos,
+.sprites.edicao-completa,
+.sprites.local-verificado,
+.sprites.sem-publicidade,
+.sprites.busca,
+.sprites.divulgacao-apontador {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/mais-sprites.png) no-repeat
+}
+
+.sprites.estatisticas,
+.sprites.responder-avaliacao,
+.sprites.organizar-fotos,
+.sprites.edicao-completa,
+.sprites.local-verificado,
+.sprites.sem-publicidade,
+.sprites.busca,
+.sprites.divulgacao-apontador {
+    height: 67px;
+    width: 67px
+}
+
+.sprites.icon-maisfacil,
+.sprites.icon-maispresenca {
+    height: 62px;
+    width: 93px
+}
+
+.sprites.icon-maisclientes {
+    background-position: 0 0;
+    height: 50px;
+    width: 93px
+}
+
+.sprites.icon-maisfacil {
+    background-position: 0 -50px
+}
+
+.sprites.icon-maispresenca {
+    background-position: 0 -110px
+}
+
+.sprites.estatisticas {
+    background-position: 0 -175px
+}
+
+.sprites.responder-avaliacao {
+    background-position: 0 -241px
+}
+
+.sprites.organizar-fotos {
+    background-position: 0 -308px
+}
+
+.sprites.edicao-completa {
+    background-position: 0 -375px
+}
+
+.sprites.local-verificado {
+    background-position: 0 -442px
+}
+
+.sprites.sem-publicidade {
+    background-position: 0 -511px
+}
+
+.sprites.divulgacao-apontador {
+    background-position: 0 -578px
+}
+
+.sprites.busca {
+    background-position: 0 -817px
+}
+
+.sprites.ico_tooltip {
+    background-position: 0 -645px;
+    width: 22px;
+    height: 22px
+}
+
+.sprites.ribbon-mais-vendido {
+    background-position: 0 -667px;
+    width: 94px;
+    height: 92px
+}
+
+.sprites.icon-telefone {
+    background-position: 0 -754px;
+    width: 60px;
+    height: 60px
+}
+
+body.newcart {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: roboto, sans-serif
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.container {
+    max-width: 946px;
+    margin: 0 auto
+}
+
+.container2 {
+    max-width: 704px
+}
+
+.shadowboxes {
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .24), 0 0 2px 0 rgba(0, 0, 0, .12);
+    border-image-source: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.02) 95%, rgba(0, 0, 0, 0.04));
+    border-image-slice: 1;
+    max-width: 464px;
+    padding: 16px;
+}
+
+header.info,
+header.main {
+    float: left;
+    width: 100%
+}
+
+header.info {
+    background-color: #4e2c70;
+    padding: 4px 0
+}
+
+header.info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+header.info ul li {
+    float: left;
+    color: #fff;
+    font-size: 1.4em;
+    margin-right: 32px
+}
+
+header.info ul li a {
+    color: #fff;
+    text-decoration: none
+}
+
+header.info ul li:last-child {
+    margin-right: 0
+}
+
+header.info ul li.mail {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/letter_white.svg?v=3) no-repeat;
+    background-size: contain;
+    padding: 1px 0 1px 25px
+}
+
+header.info ul li.phone {
+    background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/phone_white.svg?v=3) no-repeat;
+    background-size: contain;
+    padding: 1px 0 1px 25px
+}
+
+header.main {
+    background-image: linear-gradient(89deg, #6539ba, #a34dec);
+    padding: 17px 0;
+    margin-bottom: 20px
+}
+
+header.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+header.main .container .logo a img {
+    width: 132px;
+    height: auto
+}
+
+header.main .container .actions a {
+    color: #fff;
+    margin-right: 23px;
+    text-decoration: none
+}
+
+header.main .container .actions a span {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+header.main .container .actions a:last-child {
+    margin-right: 0
+}
+
+section.steps-indicator,
+section.carrinho {
+    float: left;
+    width: 100%
+}
+
+section.steps-indicator ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+section.steps-indicator ul li {
+    float: left;
+    margin-right: 11.1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60px
+}
+
+section.steps-indicator ul li .bullet {
+    width: 37.8px;
+    background: #6539ba;
+    height: 37.8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+
+section.steps-indicator ul li .bullet span {
+    font-size: 1.4em;
+    color: #fff
+}
+
+section.steps-indicator ul li span {
+    font-size: 1.2em;
+    color: #000
+}
+
+section.steps-indicator ul li.separator {
+    width: 110px;
+    max-width: 110px;
+    height: 4px;
+    background: #d8d8d8;
+    align-self: flex-start;
+    margin-top: 17px
+}
+
+section.steps-indicator ul li.inative .bullet {
+    background: #9e9e9e
+}
+
+section.steps-indicator ul li.inative .bullet span {
+    font-weight: 400;
+    color: #fff
+}
+
+section.steps-indicator ul li.inative span {
+    color: #9e9e9e
+}
+
+section.steps-indicator ul li.active .bullet span {
+    font-weight: 700
+}
+
+section.steps-indicator ul li.active span {
+    font-weight: 700
+}
+
+section.steps-indicator ul li:last-child {
+    align-self: flex-start
+}
+
+section.carrinho {
+    margin-top: 16px;
+    padding: 0;
+    margin-bottom: 40px
+}
+
+section.carrinho h1 {
+    color: rgba(0, 0, 0, .87);
+    font-size: 2.4em;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+section.carrinho h2.nota {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-weight: 500
+}
+
+section.carrinho form {
+    padding-top: 32px;
+    margin: 130px auto;
+    display: table;
+    width: 464px;
+    box-sizing: border-box
+}
+
+section.carrinho form .row {
+    float: left;
+    width: 100%;
+    margin-bottom: 38px
+}
+
+section.carrinho form .row.termos-init {
+    margin-bottom: 0;
+    margin-top: 16px;
+    font-size: 1.4em
+}
+
+section.carrinho form .group {
+    position: relative;
+    float: left
+}
+
+section.carrinho form .group-ddd,
+section.carrinho form .group-phone {
+    width: 50%
+}
+
+section.carrinho form input {
+    font-size: 1.6em;
+    padding: 0 0 7px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    position: relative
+}
+
+section.carrinho form input:focus {
+    outline: none
+}
+
+section.carrinho form span.card-brand {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    background-image: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/card-brands.png?v=3);
+    background-size: auto 100%;
+    background-position: 100px 100px;
+    background-repeat: no-repeat;
+    right: 0;
+    bottom: 0
+}
+
+section.carrinho form span.card-brand[data-card-brand=visa] {
+    background-position: -40px 0;
+    width: 50px
+}
+
+section.carrinho form span.card-brand[data-card-brand=mastercard] {
+    background-position: 0 0
+}
+
+section.carrinho form span.card-brand[data-card-brand=amex] {
+    background-position: -92px 0
+}
+
+section.carrinho form span.card-brand[data-card-brand=diners] {
+    background-position: -130px 0
+}
+
+section.carrinho form span.card-brand[data-card-brand=hipercard] {
+    background-position: -175px 0;
+    width: 55px
+}
+
+section.carrinho form span.card-brand[data-card-brand=elo] {
+    background-position: -232px 0
+}
+
+section.carrinho form label {
+    color: #999;
+    font-size: 1.6em;
+    font-weight: 400;
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: 5px;
+    transition: .2s ease all;
+    -moz-transition: .2s ease all;
+    -webkit-transition: .2s ease all
+}
+
+section.carrinho form input:focus~label,
+section.carrinho form input:valid~label {
+    top: -20px;
+    font-size: 12px;
+    color: #6539ba;
+    text-transform: uppercase
+}
+
+section.carrinho form input.error~label {
+    top: -20px;
+    font-size: 12px;
+    color: red;
+    text-transform: uppercase
+}
+
+section.carrinho form .bar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 1px
+}
+
+section.carrinho form .bar:before,
+section.carrinho form .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #6539ba;
+    transition: .2s ease all;
+    -moz-transition: .2s ease all;
+    -webkit-transition: .2s ease all
+}
+
+section.carrinho form .bar:before {
+    left: 50%
+}
+
+section.carrinho form .bar:after {
+    right: 50%
+}
+
+section.carrinho form input:focus~.bar:before,
+section.carrinho form input:focus~.bar:after {
+    width: 50%
+}
+
+section.carrinho form .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: .5
+}
+
+section.carrinho form input:focus~.highlight {
+    -webkit-animation: inputHighlighter .3s ease;
+    -moz-animation: inputHighlighter .3s ease;
+    animation: inputHighlighter .3s ease
+}
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #5264ae
+    }
+    to {
+        width: 0;
+        background: 0 0
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #5264ae
+    }
+    to {
+        width: 0;
+        background: 0 0
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #5264ae
+    }
+    to {
+        width: 0;
+        background: 0 0
+    }
+}
+
+section.carrinho form.step3 .error-line-box {
+    top: 4px;
+    display: none!important
+}
+
+section.carrinho form.step3 .error-line-box .error-text {
+    margin-left: 0
+}
+
+section.carrinho form.step3 .vencimento label {
+    top: -20px;
+    font-size: 12px;
+    color: #6539ba;
+    text-transform: uppercase
+}
+
+section.carrinho form.step3 select {
+    float: left;
+    width: 60px;
+    height: 20px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em
+}
+
+section.carrinho form.step3 .avancar-ou-retornar a.avancar {
+    margin-bottom: 16px
+}
+
+section.carrinho form.step3 .avancar-ou-retornar a.js-waiting {
+    margin-bottom: 16px
+}
+
+section.carrinho .avancar-ou-retornar {
+    padding: 0;
+    text-align: center;
+    margin: 0!important
+}
+
+section.carrinho .avancar-ou-retornar a {
+    background: #ff8207;
+    font-size: 1.4em;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin-left: 300px;
+}
+
+section.carrinho .avancar-ou-retornar a.retornar {
+    background: 0 0;
+    color: #6539ba;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: none;
+    padding: 0
+}
+
+section.carrinho .informacoes {
+    float: left;
+    width: 224px
+}
+
+section.carrinho .informacoes ul.informacoes-plano li {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 16px
+}
+
+section.carrinho .informacoes ul.informacoes-plano li h2 {
+    float: left;
+    width: 100%;
+    color: rgba(0, 0, 0, .87);
+    text-align: left;
+    margin-bottom: 16px;
+    padding: 0;
+    font-size: 2em
+}
+
+section.carrinho .informacoes ul.informacoes-plano li p {
+    float: left;
+    width: 100%;
+    margin-bottom: 8px
+}
+
+section.carrinho .informacoes ul.informacoes-plano li p strong {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .54)
+}
+
+section.carrinho .informacoes ul.informacoes-plano li p span {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 1.6em;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 500;
+    word-break: break-word
+}
+
+section.carrinho .informacoes ul.informacoes-plano li a.editar {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 1.4em;
+    color: #6539ba
+}
+
+section.carrinho .informacoes .choosed-plan h3 {
+    font-size: 1.2em;
+    float: left;
+    width: 100%;
+    color: rgba(0, 0, 0, .54);
+    font-weight: 400;
+    text-align: left
+}
+
+section.carrinho .informacoes .choosed-plan span {
+    float: left;
+    width: 100%;
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 16px
+}
+
+section.carrinho .informacoes .choosed-plan span:last-child {
+    margin-bottom: 0
+}
+
+section.carrinho .informacoes .choosed-plan .text {
+    float: left;
+    width: 100%;
+    color: rgba(0, 0, 0, .54);
+    font-size: 1.4em;
+    text-align: left
+}
+
+section.carrinho .periodo-e-forma-pgto {
+    float: right
+}
+
+section.carrinho.final .container.shadowboxes {
+    max-width: 946px;
+    margin-top: 48px;
+    text-align: center
+}
+
+section.carrinho.final p {
+    text-align: center!important;
+    color: rgba(0, 0, 0, .87)
+}
+
+section.carrinho.final p.more-info {
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, .87)
+}
+
+body.newcart footer {
+    margin-top: 74px;
+    float: left;
+    width: 100%
+}
+
+body.newcart footer section.info-apontador {
+    background-image: linear-gradient(82deg, #6539ba, #a34dec);
+    float: left;
+    width: 100%;
+    padding: 32px 0
+}
+
+body.newcart footer section.info-apontador h3 {
+    color: #fff;
+    margin-bottom: 32px;
+    font-size: 4em
+}
+
+body.newcart footer section.info-apontador span {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 2.4em;
+    margin-bottom: 16px
+}
+
+body.newcart footer section.info-apontador span a {
+    color: #fff;
+    text-decoration: none
+}
+
+body.newcart footer section.info-apontador span.funcionamento {
+    font-size: 1.6em;
+    color: #fff;
+    margin-bottom: 0
+}
+
+body.newcart footer section.about-apontador {
+    background-image: linear-gradient(82deg, #51338c, #7a40ad);
+    float: left;
+    width: 100%;
+    padding: 14px 0
+}
+
+body.newcart footer section.about-apontador .container p {
+    color: #fff;
+    font-size: 1.2em
+}
+
+@media screen and (max-width:980px) {
+    .container {
+        padding: 0 16px
+    }
+}
+
+.unit {
+    font-size: 18px;
+    position: absolute;
+    display: block;
+    left: 21px;
+    top: 16px;
+    z-index: 9;
+}
+
+@media screen and (max-width:777px) {
+    .shadowboxes {
+        max-width: 100%
+    }
+    header.info .container {
+        padding: 0
+    }
+    header.info ul li:first-child,
+    header.info ul li:last-child {
+        display: none
+    }
+    header.info ul li.mail {
+        background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/letter_white.svg?v=3) no-repeat;
+        background-size: contain;
+        padding: 1px 0 1px 25px;
+        margin-right: 0;
+        margin-left: 2px
+    }
+    header.info ul li.phone {
+        background: url(https://clientmanager.apontador-assets.com/prod/carrinho/images/phone_white.svg?v=3) no-repeat;
+        background-size: contain;
+        margin: 0;
+        float: right;
+        padding: 1px 0 1px 25px;
+        margin-right: 2px
+    }
+    header.main .container {
+        flex-direction: column;
+        padding: 0
+    }
+    header.main .actions {
+        margin-top: 28px
+    }
+    header.main .container .actions a {
+        margin-right: 6px
+    }
+    header.main .container .actions a span {
+        padding: 10px 9px;
+        background: #9013fe;
+        border-radius: 2px
+    }
+    section.carrinho .container {
+        padding: 0
+    }
+    section.carrinho form {
+        width: 100%
+    }
+    section.carrinho .informacoes {
+        width: 100%;
+        float: left
+    }
+    section.carrinho .periodo-e-forma-pgto {
+        width: 100%;
+        float: left
+    }
+    section.results .container {
+        padding: 16px
+    }
+    section.carrinho.final .container.shadowboxes {
+        padding: 16px
+    }
+}
+
+@media screen and (max-width:400px) {
+    header.info ul li.mail {
+        padding: 0 0 0 25px
+    }
+    header.info ul li.phone {
+        padding: 0 0 0 25px
+    }
+    header.info ul li span {
+        font-size: .8em
+    }
+    header.main .container .actions a span {
+        font-size: 1.2em
+    }
+}
+
+body {
+    font-size: 62.5%;
+    margin: 0;
+    background-color: #f3f3f3;
+    min-width: 320px
+}
+
+main {
+    float: left;
+    width: 100%
+}
+
+body.fix main {
+    margin-top: 86px
+}
+
+a {
+    text-decoration: none
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+button {
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 800;
+    background: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 9px 12px;
+    margin-right: 25px;
+}
+
+input[type="submit"] {
+    border: 1px solid #ff8207;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 800;
+    background: #ff8207;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 9px 12px;
+    margin-left: 280px;
+    color: white;
+    padding: 0;
+    display: inline-block;
+    line-height: 44px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0
+}
+
+input {
+    -webkit-appearance: none
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+    position: relative
+}
+
+.row {
+    float: left;
+    width: 100%
+}
+
+.component {
+    display: block;
+    float: left
+}
+
+.flex-box {
+    display: flex
+}
+
+.box {
+    display: block;
+    float: left
+}
+
+.box.left,
+.component.left {
+    float: left
+}
+
+.box.right,
+.component.right {
+    float: right
+}
+
+.float-box {
+    position: absolute
+}
+
+.shadow-default {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+    border-radius: 2px
+}
+
+.small-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+@media screen and (max-width:960px) {
+    body.fix main {
+        margin-top: 130px
+    }
+}
+
+@media screen and (max-width:716px) {
+    body.fix main {
+        margin-top: 58px
+    }
+}
+
+form#search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+    flex-direction: column;
+    position: relative;
+    z-index: 9999
+}
+
+form#search .component {
+    border: 1px solid #ff8207;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    margin: 0 auto
+}
+
+form#search .component .box {
+    width: 336px
+}
+
+form#search .component .box#location {
+    width: 222px
+}
+
+form#search .component .box#search-place {
+    width: 120px
+}
+
+form#search input {
+    padding: 16px 8.8px;
+    width: 100%;
+    border-color: transparent;
+    outline: 0;
+    font-size: 1.4em;
+    -webkit-appearance: none;
+    outline: 0;
+    border-width: 0;
+    line-height: 1em
+}
+
+form#search button {
+    border-color: transparent;
+    width: 100%;
+    height: 48px;
+    background: #ff8207 url(https://newpoi-assets.apontador.com.br/website/images/buscar.svg) no-repeat;
+    background-position: center left 15px;
+    font-size: 1.6em;
+    text-transform: none;
+    color: #fff;
+    padding: 15px 5px 15px 25px;
+    border-radius: 0 2px 2px 0;
+    border-width: 0;
+    line-height: 1em
+}
+
+form#search .component .close {
+    display: none
+}
+
+form#search #auto-complete {
+    width: 559px;
+    margin: 0 125px auto;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    display: none;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12)
+}
+
+form#search #auto-complete ul li {
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+    padding: 8px 16px
+}
+
+form#search #auto-complete ul li:first-child {
+    margin-top: 16px
+}
+
+form#search #auto-complete ul li:last-child {
+    margin-bottom: 16px
+}
+
+form#search #auto-complete ul li:hover {
+    background: #f3f3f3
+}
+
+form#search #auto-complete .def-location {
+    border-top: solid .5px #f3f3f3
+}
+
+form#search #auto-complete .def-location span {
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 10px;
+    cursor: pointer;
+    float: left
+}
+
+form#search #auto-complete #my-location {
+    display: none
+}
+
+form#search #auto-complete #my-location.def-location span {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/meu_local.svg) no-repeat;
+    background-position: center left;
+    padding-left: 34px;
+    margin-left: 9px
+}
+
+form#search #auto-complete #anywhere.def-location span {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/qualquer_lugar.svg) no-repeat;
+    background-position: center left;
+    padding-left: 34px;
+    margin-left: 9px
+}
+
+section#breadcrumb {
+    background: #eee;
+    padding: 11px 0;
+    margin-bottom: 16px
+}
+
+section#breadcrumb ul {
+    margin-left: 28px
+}
+
+section#breadcrumb ul li {
+    font-size: 1.2em;
+    font-weight: normal;
+    float: left;
+    margin-right: 6px
+}
+
+section#breadcrumb ul li a {
+    color: #6c6c6c
+}
+
+section#breadcrumb ul li a span {
+    color: #6c6c6c
+}
+
+section#ads-section #apontador-mais {
+    background: #9c5bf5;
+    background: -webkit-linear-gradient(#a34dec, #9968fe);
+    background: -o-linear-gradient(#a34dec, #9968fe);
+    background: -moz-linear-gradient(#a34dec, #9968fe);
+    background: linear-gradient(#a34dec, #9968fe);
+    padding: 72px 0 32px;
+    height: 266px;
+    float: none;
+    max-width: 960px;
+    margin: 0 auto 50px
+}
+
+.banner-super div {
+    padding: 0 100px;
+    min-width: 100%
+}
+
+.banner-super div iframe {
+    margin: 0 auto
+}
+
+.outer-center {
+    float: right;
+    right: 50%;
+    position: relative
+}
+
+.inner-center {
+    float: right;
+    right: -50%;
+    position: relative
+}
+
+.clear {
+    clear: both
+}
+
+.banner-bottom {
+    position: fixed;
+    overflow: visible;
+    bottom: 0;
+    z-index: 2147483646;
+    transition: right 500ms ease 0s, left 500ms ease 0s, top 500ms ease 0s, bottom 500ms ease 0s, display 500ms ease 0s
+}
+
+.banner-bottom-x {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    right: 0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 1px 0;
+    border: 0;
+    border-radius: 3px 3px 0 0;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTUgMTUiIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt0b3A6MDtyaWdodDowO2hlaWdodDoxNnB4O3dpZHRoOjE2cHg7c3Ryb2tlOiMwMDViYWE7c3Ryb2tlLXdpZHRoOjEuMjU7Ij48cGF0aCBkPSJNMy4yNSwzLjI1bDguNSw4LjVNMTEuNzUsMy4yNWwtOC41LDguNSI+PC9wYXRoPjwvc3ZnPg==')
+}
+
+#mobile-banner {
+    background: #ff8207;
+    padding-top: 32px
+}
+
+main#home #mobile-banner {
+    background: 0;
+    padding-top: 0
+}
+
+#mobile-banner .container {
+    display: flex;
+    justify-content: center
+}
+
+#mobile-banner .component {
+    width: 100%;
+    max-width: 760px
+}
+
+#mobile-banner .image {
+    width: 256px;
+    height: 200px;
+    background-image: url(https://newpoi-assets.apontador.com.br/website/images/phone_ad.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center 15px
+}
+
+#mobile-banner .text {
+    color: #fff;
+    padding-left: 30px;
+    max-width: 460px
+}
+
+main#home #mobile-banner .text {
+    color: #6c6c6c
+}
+
+#mobile-banner .text h4 {
+    margin: 0;
+    font-size: 2.6em;
+    max-width: 500px;
+    font-weight: 400;
+    text-align: left
+}
+
+#mobile-banner .text .button {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 25px;
+    flex-wrap: wrap
+}
+
+#mobile-banner .text a {
+    display: inline-block
+}
+
+#mobile-banner .text a button {
+    border: 0;
+    background-color: transparent;
+    background-size: 100% auto;
+    width: 120px;
+    height: 35.74px
+}
+
+#mobile-banner .text a button.android {
+    background-image: url(https://newpoi-assets.apontador.com.br/website/images/bt_android.png)
+}
+
+#mobile-banner .text a button.ios {
+    background-image: url(https://newpoi-assets.apontador.com.br/website/images/bt_ios.png)
+}
+
+#mobile-banner .text a {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+#mobile-banner .text a:last-of-type {
+    margin-right: 0
+}
+
+#mobile-banner .text span {
+    font-size: 1em
+}
+
+#float-banner {
+    position: relative
+}
+
+#float-banner.right.home div {
+    position: absolute;
+    left: 102.5%;
+    top: 298px
+}
+
+#float-banner.left.home div {
+    position: absolute;
+    right: 102.5%;
+    top: 298px
+}
+
+#float-banner.left.place div {
+    position: absolute;
+    right: 102.5%;
+    top: 110px
+}
+
+#float-banner.right.list div {
+    position: absolute;
+    left: 102.5%;
+    top: 155px
+}
+
+.distancy {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/distancia.svg) no-repeat;
+    padding-left: 20px;
+    background-position: center left;
+    float: right
+}
+
+.distancy del {
+    text-decoration: none
+}
+
+.partner-place {
+    float: right
+}
+
+ul.stars {
+    float: left;
+    margin-right: 13px
+}
+
+ul.stars li {
+    float: left;
+    margin-right: 3px
+}
+
+ul.stars li:last-child {
+    margin-right: 0
+}
+
+ul.stars li.star {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/estrela_desativada.svg) no-repeat;
+    width: 20.6px;
+    height: 19.6px;
+    background-size: cover
+}
+
+ul.stars li.star.filled {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/estrela_ativada.svg) no-repeat;
+    background-size: cover
+}
+
+section#paginator {
+    margin-bottom: 18px
+}
+
+section#paginator ul {
+    justify-content: center
+}
+
+section#paginator ul li {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-right: 12px
+}
+
+section#paginator ul li.first {
+    margin-right: 28px
+}
+
+section#paginator ul li.last {
+    margin-left: 16px
+}
+
+section#paginator ul li:last-child {
+    margin-right: 0
+}
+
+section#paginator ul li.inative {
+    font-weight: normal
+}
+
+section#paginator ul li span {
+    color: #636363
+}
+
+#modal-social-buttons {
+    display: none;
+    border: solid 1px rgba(0, 0, 0, 0.12);
+    padding: 10px 0;
+    margin-bottom: 16px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+#modal-social-buttons ul {
+    justify-content: center;
+    background-color: #fff;
+    width: 240px;
+    margin: 0 auto;
+    padding: 16px
+}
+
+#modal-social-buttons ul li {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 0 8px 52px
+}
+
+#modal-social-buttons ul li img {
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+#modal-social-buttons ul li a {
+    color: #000;
+    text-decoration: none
+}
+
+#modal-social-buttons ul li.cancel {
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-left: 0;
+    text-align: center;
+    color: #8e8e8e;
+    border: 0;
+    border-top: solid 1px #8e8e8e;
+    cursor: pointer
+}
+
+#modal-social-buttons .modal-container {
+    width: fit-content;
+    width: -webkit-fit-content;
+    height: fit-content;
+    height: -webkit-fit-content;
+    position: relative
+}
+
+#modal-social-buttons .modal-container .bt-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer
+}
+
+.denakop_ads {
+    z-index: 999 !important
+}
+
+@media screen and (max-width:960px) {
+    .dfp-banner {
+        margin: 20px 0
+    }
+    .banner-super {
+        display: flex
+    }
+    .banner-super div {
+        padding: 0;
+        background: 0;
+        min-width: auto;
+        min-height: auto;
+        margin: 0 auto
+    }
+    .banner-super img {
+        max-width: 728px;
+        width: 100%
+    }
+    #mobile-banner .text {
+        max-width: 420px
+    }
+}
+
+@media screen and (max-width:716px) {
+    form#search {
+        display: block
+    }
+    form#search .component {
+        width: 100%;
+        background: #fff
+    }
+    form#search .component .box#query {
+        width: 90%
+    }
+    form#search .component .box#location {
+        display: none
+    }
+    form#search .component .box#search-place {
+        width: 51px;
+        float: right
+    }
+    form#search button {
+        text-indent: -9999px;
+        padding: 0;
+        height: 51px
+    }
+    body.mobile-search form#search button {
+        padding: 10px;
+        font-size: 1.4em;
+        background: 0;
+        width: auto;
+        text-transform: uppercase;
+        height: auto;
+        text-indent: unset
+    }
+    body.mobile-search {
+        height: 100vh;
+        overflow: hidden
+    }
+    body.mobile-search section#search-section .container {
+        position: static
+    }
+    body.mobile-search form#search {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background: #f3f3f3
+    }
+    body.mobile-search form#search .component {
+        background: #ff8207;
+        padding: 52px 8px 8px 8px;
+        height: auto;
+        position: relative
+    }
+    body.mobile-search form#search .component .box#query {
+        width: 100%;
+        float: right;
+        margin-bottom: 8px
+    }
+    body.mobile-search form#search .component .box#query input {
+        border-radius: 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+        border: solid 1px #ff8207
+    }
+    body.mobile-search form#search .component .box#location {
+        display: block;
+        float: right;
+        width: 100%
+    }
+    body.mobile-search form#search .component .box#location input {
+        border-radius: 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+        border: solid 1px #ff8207
+    }
+    body.mobile-search form#search .component .box#search-place {
+        position: absolute;
+        top: 11px;
+        right: 8px;
+        width: auto
+    }
+    body.mobile-search form#search .component .box input {
+        padding: 8px 8.8px 8px;
+        font-size: 1.4em
+    }
+    body.mobile-search form#search .component .close {
+        background: url(https://newpoi-assets.apontador.com.br/website/images/voltar_branco.svg) no-repeat;
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+        position: absolute;
+        cursor: pointer;
+        top: 16px;
+        left: 8px
+    }
+    body.mobile-search form#search #auto-complete {
+        float: left;
+        margin: 0;
+        position: relative;
+        top: 0;
+        left: 0 !important;
+        width: 100%
+    }
+    body.mobile-search form#search #auto-complete ul li {
+        padding: 10px 16px;
+        border-bottom: solid .5px #f3f3f3
+    }
+    body.mobile-search form#search #auto-complete ul li:first-child,
+    body.mobile-search form#search #auto-complete ul li:last-child {
+        margin: 0
+    }
+    #mobile-banner .image {
+        width: 50%;
+        height: 214px;
+        max-width: 175px;
+        margin-right: 0;
+        padding: 0 20px;
+        background-image: url(https://newpoi-assets.apontador.com.br/website/images/phone_ad_mobile.png);
+        background-size: 94% auto;
+        background-position: center top
+    }
+    #mobile-banner .text {
+        width: 50%;
+        margin-top: 0;
+        padding: 0 15px
+    }
+    #mobile-banner .text h4 {
+        font-size: 2.5em
+    }
+}
+
+@media screen and (max-width:600px) {
+    form#search .component .box#query {
+        width: 80%
+    }
+    #mobile-banner .container {
+        padding: 0;
+        display: block
+    }
+    #mobile-banner .component {
+        width: 100%
+    }
+    #mobile-banner .text h4 {
+        font-size: 1.8em
+    }
+    .distancy del {
+        display: none
+    }
+}
+
+@media screen and (max-width:500px) {
+    .dfp-banner {
+        margin: 20px 0
+    }
+    .dfp-banner .container {
+        padding: 0
+    }
+    form#search .component {
+        height: 46px
+    }
+    form#search input {
+        padding: 11px 8.8px 10px
+    }
+    form#search button {
+        height: 44px;
+        background: #ff8207 url(https://newpoi-assets.apontador.com.br/website/images/buscar.svg) no-repeat;
+        background-position: center;
+        background-size: 20px
+    }
+}
+
+@media screen and (max-width:420px) {
+    #mobile-banner .text {
+        margin-top: 12px
+    }
+    #mobile-banner .text h4 {
+        font-size: 1.8em;
+        width: 100%
+    }
+}
+
+@media screen and (max-width:356px) {
+    #mobile-banner .text h4 {
+        font-size: 1.5em
+    }
+}
+
+.coronavirus-info {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px
+}
+
+header {
+    width: 100%;
+    padding: 20px 16px;
+    float: left;
+    position: relative
+}
+
+header .box.left {
+    margin-right: 16px
+}
+
+header button {
+    color: #6539ba;
+    border-color: #6539ba
+}
+
+header button#anuncie:hover {
+    background-color: #9012fe;
+    color: #fff
+}
+
+header #menu-trigger {
+    padding: 3px;
+    margin: 8px 0;
+    cursor: pointer;
+    float: left
+}
+
+header #user-trigger {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #ff8207;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer
+}
+
+header #user-trigger img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+header #logo {
+    float: left;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    height: 38px
+}
+
+header #logo a img {
+    float: left
+}
+
+header .component#login {
+    margin-left: 8px
+}
+
+header .component#anuncie {
+    margin-left: 8px
+}
+
+header .component#user {
+    margin-left: 16px;
+    padding: 1px 0
+}
+
+header #login button,
+header #anuncie button {
+    margin-right: 0;
+    border: 1px solid transparent;
+    color: rgba(0, 0, 0, 0.54)
+}
+
+header .component #search-trigger {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/buscar_preto.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    color: transparent;
+    text-indent: -99999px;
+    padding: 0;
+    background-size: auto;
+    background-position: center;
+    cursor: pointer;
+    display: none
+}
+
+header .dropdown-menu {
+    position: absolute;
+    background-color: #FFF;
+    top: 75px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+    z-index: 999999;
+    display: none
+}
+
+header #category-menu.dropdown-menu {
+    left: 5px
+}
+
+header #login-menu.dropdown-menu {
+    right: 5px
+}
+
+body.login-open header #login-menu.dropdown-menu {
+    display: block
+}
+
+header #login-menu.dropdown-menu ul {
+    padding: 16px;
+    min-width: 170px
+}
+
+header #login-menu.dropdown-menu ul li {
+    font-size: 1.4em;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 16px
+}
+
+header #login-menu.dropdown-menu ul li.anuncie-fb {
+    display: none
+}
+
+header #login-menu.dropdown-menu ul li:last-child {
+    margin-bottom: 0
+}
+
+header #login-menu.dropdown-menu ul li a {
+    color: rgba(0, 0, 0, 0.54)
+}
+
+body.menu-open header #category-menu {
+    display: block
+}
+
+header #category-menu .menu-level {
+    width: 288px;
+    float: left
+}
+
+header #category-menu #first-menu-level {
+    background-color: #fcfcfc
+}
+
+header #category-menu .menu-header {
+    margin: 0;
+    padding-bottom: 7px;
+    margin: 0 31px 0 16px;
+    border-bottom: solid .5px rgba(0, 0, 0, 0.12);
+    margin-top: 8px;
+    margin-bottom: 7.5px;
+    float: left;
+    width: 84%;
+    display: flex;
+    align-items: center
+}
+
+header #category-menu .mobile-level-back {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/voltar_categoria.svg) no-repeat;
+    background-size: contain;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 12px;
+    cursor: pointer;
+    display: none
+}
+
+header #category-menu h3 {
+    font-size: 1.8em;
+    float: left;
+    font-weight: 400
+}
+
+header #category-menu #all-categories-link {
+    float: left;
+    width: 84%;
+    border-top: .5px solid #f3f3f3;
+    padding-top: 15.5px;
+    margin: 0 31px 0 16px;
+    margin-bottom: 22px
+}
+
+header #category-menu #all-categories-link span {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    text-align: center
+}
+
+header #category-menu #all-categories-link span a {
+    color: #ff8207
+}
+
+header #category-menu ul {
+    width: 100%;
+    float: left
+}
+
+header #category-menu ul li {
+    font-size: 1.4em;
+    float: left;
+    width: 100%;
+    padding: 8px 16px;
+    color: rgba(0, 0, 0, 0.54)
+}
+
+header #category-menu ul li:hover {
+    background-color: #eee
+}
+
+header #category-menu ul li a {
+    float: left;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.54);
+    background: url(https://newpoi-assets.apontador.com.br/website/images/seta_categoria.svg) no-repeat;
+    background-position: center right;
+    background-size: 8px
+}
+
+header #category-menu ul.sub-menu li a {
+    background-image: none
+}
+
+header #category-menu ul#main-menu {
+    background-color: #fcfcfc;
+    margin-bottom: 16px;
+    float: left
+}
+
+header #category-menu ul.sub-menu {
+    position: absolute;
+    left: 288px;
+    top: 0;
+    background: #FFF;
+    height: 100%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 0;
+    display: none
+}
+
+header #category-menu #first-menu-level ul li:hover ul.sub-menu.second-menu-level {
+    display: block
+}
+
+header #category-menu ul.sub-menu.second-menu-level li:hover ul.sub-menu.third-menu-level {
+    display: block
+}
+
+header #category-menu ul.sub-menu li {
+    font-size: 1em
+}
+
+header #category-menu ul.sub-menu li.mobile-cat-header {
+    display: none
+}
+
+header.with-search {
+    padding: 16px;
+    display: flex;
+    align-items: center
+}
+
+body.fix header {
+    position: fixed;
+    z-index: 99999;
+    background: #fcfcfc;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12)
+}
+
+header.with-search #header-search {
+    width: 614px;
+    margin: 0 auto
+}
+
+header.with-search form#search {
+    width: 100%;
+    margin-bottom: 0
+}
+
+header.with-search form#search .component .box#search-place {
+    width: 50px
+}
+
+header.with-search form#search button {
+    text-indent: -9999px
+}
+
+header.with-search form#search #auto-complete {
+    margin: 0;
+    left: 3px
+}
+
+@media screen and (max-width:1300px) {
+    header.with-search .component#anuncie {
+        display: none
+    }
+}
+
+@media screen and (max-width:1150px) {
+    header .component#anuncie,
+    header .component#anuncie-no-facebook {
+        display: none
+    }
+    header #login-menu.dropdown-menu ul li.anuncie-fb {
+        display: block
+    }
+}
+
+@media screen and (max-width:960px) {
+    header #menu-trigger {
+        position: absolute;
+        left: 16px;
+        top: 16px
+    }
+    header #user-trigger {
+        height: 28px;
+        width: 28px
+    }
+    header.with-search {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+    header.with-search .box.left {
+        order: 1;
+        flex-grow: 2;
+        margin-right: 0;
+        justify-content: center;
+        display: flex
+    }
+    header.with-search .box.left #logo {
+        margin: 0 auto
+    }
+    header.with-search #header-search {
+        order: 4;
+        width: 100%;
+        flex-grow: 2;
+        margin-top: 20px
+    }
+    header.with-search .box.right {
+        position: absolute;
+        right: 16px;
+        top: 14px
+    }
+    header #logo {
+        height: auto
+    }
+}
+
+@media screen and (max-width:716px) {
+    header.with-search .box.left {
+        justify-content: end
+    }
+    header #menu-trigger {
+        margin: 5px 0
+    }
+    header.with-search .box.left #logo {
+        margin: 0;
+        margin-left: 45px
+    }
+    header.with-search .box.right {
+        margin-top: 4px
+    }
+    header.with-search form#search .component .box#location {
+        display: block
+    }
+    header.with-search #header-search {
+        display: none
+    }
+    body.mobile-search header.with-search #header-search {
+        display: block
+    }
+    header.with-search .component #search-trigger {
+        display: block
+    }
+    header .component#login {
+        margin-left: 16px
+    }
+    header .component#user {
+        padding: 0;
+        margin-top: -2px
+    }
+    header #user-trigger {
+        height: 24px;
+        width: 24px
+    }
+    header .component#login button {
+        border: 0;
+        padding: 0;
+        background: url(https://newpoi-assets.apontador.com.br/website/images/entrar_mobile.svg) no-repeat;
+        text-indent: -9999px;
+        width: 20px;
+        height: 20px
+    }
+    header.with-search form#search .component .box#search-place {
+        width: auto
+    }
+    body.mobile-search header.with-search form#search button {
+        text-indent: unset
+    }
+}
+
+@media screen and (max-width:630px) {
+    header.with-search form#search .component .box#name {
+        width: 91%
+    }
+}
+
+@media screen and (max-width:600px) {
+    body.menu-open {
+        overflow: hidden
+    }
+    header #category-menu .mobile-level-back {
+        display: block
+    }
+    header #category-menu.dropdown-menu {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh
+    }
+    header #category-menu h3 {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        padding: 8px 10px
+    }
+    header #category-menu .menu-level {
+        width: 100%
+    }
+    header #category-menu ul.sub-menu {
+        left: 0
+    }
+    header #category-menu ul.sub-menu li.mobile-cat-header {
+        border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+        display: flex;
+        align-items: center;
+        padding-bottom: 12px
+    }
+    header #category-menu ul.sub-menu li.mobile-cat-header span {
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 1.3em
+    }
+}
+
+@media screen and (max-width:530px) {
+    header.with-search form#search .component .box#name {
+        width: 90%
+    }
+}
+
+section#list-content {
+    width: 100%;
+    float: right;
+    margin-top: 45px;
+}
+
+section#list-content h2 a {
+    color: #424242
+}
+
+section#list-content h5 {
+    color: #9a9a9a;
+    font-size: 1.4em
+}
+
+section#list-content .component.left {
+    max-width: 754px;
+    margin-right: 16px;
+}
+
+section#list-content .component.right {
+    max-width: 576px
+}
+
+section#list-content .box {
+    padding: 16px
+}
+
+section#list-content .box.big {
+    width: 552px;
+    float: right;
+    margin-bottom: 16px;
+}
+
+section#list-content .box.small {
+    width: 336px;
+    float: left;
+    margin-bottom: 16px
+}
+
+section#list-content h1 {
+    color: #424242;
+    font-size: 2.6em;
+    font-weight: 400;
+    padding-bottom: 16px;
+    padding-left: 16px
+}
+
+section#list-content h2.pageDescription {
+    color: #424242;
+    font-size: 1.6em;
+    font-weight: 400;
+    padding-bottom: 16px;
+    padding-left: 16px
+}
+
+section#list-content #results-number h5 {
+    font-weight: 400
+}
+
+section#list-content #page-filter h5 {
+    min-height: 16px
+}
+
+section#list-content section.place .place-logo {
+    float: right;
+    margin-left: 16px;
+    max-width: 78px
+}
+
+section#list-content section.place .place-logo img {
+    width: 78px;
+    height: 78px
+}
+
+section#list-content section.place .title {
+    margin-bottom: 9px;
+    float: left;
+    width: 100%
+}
+
+section#list-content section.premium-place .title {
+    max-width: 445px
+}
+
+section#list-content section.place .title h2 {
+    font-size: 1.6em
+}
+
+section#list-content section.place .complementary-info {
+    margin-bottom: 9px;
+    float: left;
+    width: 100%
+}
+
+section#list-content section.premium-place .complementary-info {
+    max-width: 445px
+}
+
+section#list-content section.place .address-info {
+    margin-bottom: 8px;
+    height: 16px;
+    overflow: hidden;
+    float: left;
+    width: 100%
+}
+
+section#list-content section.premium-place .address-info {
+    max-width: 445px
+}
+
+section#list-content section.place .address-info span,
+section#list-content section.place .status-open-close span.time-info {
+    font-size: 1.3em;
+    color: #000000;
+    float:left;
+}
+.wrapper{
+    margin: 60px auto;
+    text-align: center;
+  }
+  h1{
+    margin-bottom: 1.25em;
+  }
+  #pagination-demo{
+    display: inline-block;
+    margin-bottom: 1.75em;
+  }
+  #pagination-demo li{
+    display: inline-block;
+  }
+  
+  .page-content{
+    background: #eee;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    max-width: 660px;
+  }
+section#list-content section.place .status-open-close {
+    margin-bottom: 8px;
+    float: left;
+    width: 100%
+}
+
+section#list-content section.place .status-open-close span {
+    font-size: 1.3em
+}
+
+section#list-content section.place .status-open-close span.open {
+    color: #20b226;
+    text-transform: uppercase;
+    margin-left: 8px
+}
+
+section#list-content section.place .status-open-close span.close {
+    color: red;
+    text-transform: uppercase;
+    margin-left: 8px
+}
+
+section#list-content section.premium-place .status-open-close {
+    max-width: 445px
+}
+
+section#list-content section.place .place-avaliation {
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-right: 16px
+}
+
+section#list-content section.place .place-avaliation ul.stars li {
+    width: 13.8px;
+    height: 13.8px
+}
+
+section#list-content section.place .place-avaliation span {
+    color: #9a9a9a;
+    font-size: 1.3em
+}
+
+section#list-content section.place .partner-place {
+    float: left
+}
+
+section#list-content section.place .partner-place h4 {
+    font-weight: bolder;
+    font-size: 1.3em;
+    color: #5c44a5;
+    text-transform: uppercase
+}
+
+section#list-content section.place .partner-place h4.vivo,
+section#list-content section.place .partner-place h4.vivo-movel,
+section#list-content section.place .partner-place h4.vivo-csb {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/vivo_logo.png) no-repeat;
+    background-size: contain;
+    color: transparent;
+    padding: 0 3px
+}
+
+section#list-content section.place .partner-place h4.leap {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/leap_logo.png) no-repeat;
+    background-size: contain;
+    color: transparent;
+    padding: 0 3px
+}
+
+section#list-content section.place .partner-place h4.netseg {
+    background: url(https://newpoi-assets.apontador.com.br/website/images/netseg_logo.png) no-repeat;
+    background-size: contain;
+    color: transparent;
+    padding: 0 3px
+}
+
+section#list-content section.place .place-distance span {
+    font-size: 1.4em;
+    color: #9a9a9a;
+    margin: 8px 0;
+    font-weight: bold;
+    background: url(https://newpoi-assets.apontador.com.br/website/images/endereco.svg) no-repeat;
+    background-size: contain;
+    padding-left: 20px
+}
+
+section#list-content section.place .place-distance div {
+    height: 0;
+    display: none
+}
+
+section#list-content section.place .actions .see-more,
+section#list-content section.place .actions .see-phone {
+    padding: 12px 12px 10px 4px
+}
+
+section#list-content section.place .see-more span {
+    color: #f46f23;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 100;
+    background: url(https://newpoi-assets.apontador.com.br/website/images/ver-mais.svg) no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold
+}
+
+section#list-content section.place .see-phone span {
+    color: #f46f23;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 100;
+    background: url(https://newpoi-assets.apontador.com.br/website/images/telefone.svg) no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold
+}
+
+section#list-content section.sponsored-places.box.big {
+    padding-bottom: 7px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+    margin-bottom: 0;
+    border-radius: 0
+}
+
+section#list-content section.sponsored-places.box.big.first {
+    border-radius: 2px 2px 0 0
+}
+
+section#list-content section.sponsored-places.box.big.last {
+    margin-bottom: 16px;
+    border-radius: 0 0 2px 2px
+}
+
+section#list-content section.sponsored-places .place-avaliation {
+    display: flex;
+    align-items: center
+}
+
+section#list-content section.sponsored-places .place-avaliation ul.stars li {
+    border: 0;
+    margin-bottom: 0;
+    width: 16px;
+    height: 16px
+}
+
+section#list-content section.sponsored-places .left {
+    float: left;
+    max-width: 80%
+}
+
+section#list-content section.sponsored-places .right {
+    float: right
+}
+
+section#list-content section.sponsored-places .partner-place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 45px
+}
+
+section#list-content section.sponsored-places .partner-place h4 {
+    font-size: 1.4em
+}
+
+section#list-content section#filter-options {
+    padding: 30px 24px
+}
+
+section#list-content section#filter-options div.row {
+    margin-bottom: 30px
+}
+
+section#list-content section#filter-options div.row.filter-closer {
+    display: none
+}
+
+section#list-content section#filter-options .row:last-child {
+    margin-bottom: 0
+}
+
+section#list-content section#filter-options h3 {
+    font-size: 1.4em;
+    color: #424242;
+    font-weight: 500;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+    padding-bottom: 4px;
+    margin-bottom: 9px
+}
+
+section#list-content section#filter-options ul {
+    max-height: 150px;
+    overflow: scroll;
+    overflow-x: hidden
+}
+
+section#list-content section#filter-options ul::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5
+}
+
+section#list-content section#filter-options ul::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #fd7f00
+}
+
+section#list-content section#filter-options ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #ffe4cc
+}
+
+section#list-content section#filter-options ul li {
+    padding: 11px 0
+}
+
+section#list-content section#filter-options ul li h4 {
+    font-size: 1.4em;
+    font-weight: normal;
+    float: left;
+    max-width: 235px
+}
+
+section#list-content section#filter-options ul li h4 a {
+    color: #9a9a9a
+}
+
+section#list-content section#filter-options ul li span.count {
+    color: #fd7f00;
+    font-size: 1.4em;
+    font-weight: lighter;
+    float: right;
+    margin-right: 12px
+}
+
+section#list-content section#filter-options ul.selected {
+    overflow: auto
+}
+
+section#list-content section#filter-options ul.selected li a,
+section#list-content section#filter-options ul li.selected a,
+section#list-content section#filter-options ul li a {
+    color: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+section#list-content section#filter-options ul.selected li h4,
+section#list-content section#filter-options ul li.selected h4 {
+    float: left
+}
+
+section#list-content section#filter-options ul.selected li span.close,
+section#list-content section#filter-options ul li.selected span.close,
+section#list-content section#filter-options ul li span.close.selected {
+    float: right;
+    background: url(https://newpoi-assets.apontador.com.br/website/images/fechar.svg) no-repeat;
+    width: 14px;
+    height: 14px;
+    background-size: contain
+}
+
+section#list-content section#filter-options ul li.fulllist span.close,
+section#list-content section#filter-options ul li span.close.selected {
+    margin-right: 14px
+}
+
+section#list-content section#all-categories {
+    margin-bottom: 32px
+}
+
+section#list-content section#all-categories ul#cat-list li {
+    font-size: 1.4em;
+    display: inline-block;
+    width: 29%;
+    margin: 10px 2% 10px 2%
+}
+
+section#list-content section#all-categories ul#cat-list span a {
+    color: rgba(0, 0, 0, 0.54)
+}
+
+section#list-content section#all-categories ul#cat-list span a:hover {
+    color: #ff8207
+}
+
+section#list-content .right .box.small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0
+}
+
+section#list-content .right .box.small .small-banner {
+    margin: 16px 0
+}
+
+section#list-content section#nothing_found {
+    text-align: center;
+    background: url(https://newpoi-assets.apontador.com.br/website/images/sem_resultado.svg) no-repeat;
+    background-position: center top;
+    padding-top: 80px;
+    margin-top: 70px
+}
+
+section#list-content section#nothing_found h2 {
+    font-weight: 600;
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 5px
+}
+
+section#list-content section#nothing_found span {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 1.4em;
+    line-height: 20px
+}
+
+section#list-content section#nothing_found span a {
+    color: #ff8207
+}
+
+body.fix.featured-list main {
+    margin-top: 84px
+}
+
+body.featured-list section#breadcrumb {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(238, 238, 238, 0.9)
+}
+
+body.featured-list section#list-content .grid-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px
+}
+
+body.featured-list section#list-content .grid-list .place {
+    width: 25%;
+    padding: 8px
+}
+
+body.featured-list section#list-content .grid-list .place>.box {
+    min-height: 230px
+}
+
+body.featured-list section#list-content .grid-list .place .partner-place {
+    margin-bottom: 10px
+}
+
+body.featured-list section#list-content .grid-list .place .place-avaliation {
+    display: block
+}
+
+body.featured-list section#list-content .grid-list .place .place-avaliation ul.stars {
+    width: 100%
+}
+
+body.featured-list section#list-content .grid-list .place .place-avaliation .number-avaliations {
+    line-height: 2.2em
+}
+
+body.featured-list section#list-content .grid-list .place .distance {
+    color: #9a9a9a;
+    font-size: 1.4em
+}
+
+body.featured-list section#list-content .grid-list .place .distance .ico-distance {
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    background-image: url(https://newpoi-assets.apontador.com.br/website/images/endereco.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto 100%;
+    opacity: .6;
+    vertical-align: bottom
+}
+
+body.featured-list section#list-content section.place .title {
+    max-height: 76px;
+    overflow: hidden
+}
+
+body.featured-list section#list-header {
+    height: 352px;
+    position: relative;
+    display: flex;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+body.featured-list section#list-header .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 55%;
+    color: #fff;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#000000', GradientType=0)
+}
+
+body.featured-list section#list-header .text .container {
+    padding: 16px 48px
+}
+
+body.featured-list section#list-header .text h1 {
+    font-size: 2.6em;
+    font-weight: bold
+}
+
+body.featured-list section#list-header .text h2 {
+    font-size: 1.6em;
+    font-weight: normal;
+    padding: 5px 0
+}
+
+body.featured-list section#list-header .text .bt-share {
+    color: #fff;
+    border-color: #fff;
+    text-transform: none;
+    margin-top: 8px;
+    font-size: 1.4em;
+    font-weight: normal
+}
+
+body.featured-list section#list-header .text .bt-share i {
+    background-image: url(https://newpoi-assets.apontador.com.br/website/images/compartilhar_branco.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px
+}
+
+@media screen and (max-width:959px) {
+    section#list-content .component.left {
+        margin: 0 auto;
+        float: none;
+        max-width: 576px
+    }
+    section#list-content .box.small {
+        width: 100%;
+        padding: 0
+    }
+    section#list-content #page-filter {
+        padding: 0 16px
+    }
+    section#list-content #page-filter h5 {
+        color: #f46f23;
+        cursor: pointer;
+        background: url(https://newpoi-assets.apontador.com.br/website/images/menu.svg) no-repeat;
+        padding-left: 30px;
+        background-position: left center
+    }
+    section#list-content .component.left .small-banner {
+        display: none
+    }
+    section#list-content section#filter-options {
+        display: none
+    }
+    body.show-filter section#list-content section#filter-options {
+        display: block
+    }
+    section#list-content .component.right {
+        margin: 0 auto;
+        display: block;
+        float: none
+    }
+    body.featured-list section#list-header .text .container {
+        padding: 16px 32px
+    }
+}
+
+@media screen and (max-width:600px) {
+    main#list section#breadcrumb {
+        display: none
+    }
+    section#list-content .container {
+        padding: 0 8px
+    }
+    section#list-content h1 {
+        font-size: 2em
+    }
+    section#list-content .box.big {
+        width: 100%
+    }
+    section#list-content section.premium-place .title,
+    section#list-content section.premium-place .complementary-info {
+        max-width: 70%
+    }
+    section#list-content section.place .place-logo {
+        max-width: 64px
+    }
+    section#list-content section.place .place-logo img {
+        width: 64px;
+        height: 64px
+    }
+    section#list-content .box.results {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+    section#list-content section.place .actions {
+        display: none
+    }
+    section#list-content.alternate .container {
+        padding: 0
+    }
+    section#list-content section#all-categories {
+        width: 100%
+    }
+    section#list-content section#all-categories ul#cat-list li {
+        float: left;
+        width: 100%;
+        margin: 0 0 8px;
+        background: url(https://newpoi-assets.apontador.com.br/website/images/seta_categoria.svg) no-repeat;
+        padding: 8px 0;
+        background-position: center right
+    }
+    section#list-content section.sponsored-places .left {
+        max-width: 60%
+    }
+    section#list-content section.sponsored-places .title h2 {
+        font-size: 1.4em
+    }
+    section#list-content section.sponsored-places .place-avaliation ul.stars li {
+        width: 10px;
+        height: 10px
+    }
+    section#list-content section.sponsored-places .place-avaliation span {
+        font-size: 1.2em
+    }
+    section#list-content section.sponsored-places .partner-place h4 {
+        font-size: 1.2em
+    }
+}
+
+@media screen and (max-width:500px) {
+    section#list-content h1 {
+        font-size: 1.8em;
+        margin-top: 16px
+    }
+    section#list-content .container {
+        position: unset
+    }
+    section#list-content section#filter-options {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        height: 100vh;
+        padding: 16px;
+        overflow: scroll
+    }
+    section#list-content section#filter-options div.row.filter-closer {
+        display: block;
+        font-size: 1.8em;
+        color: rgba(0, 0, 0, 0.87)
+    }
+    section#list-content section#filter-options div.row.filter-closer span {
+        background: url(https://newpoi-assets.apontador.com.br/website/images/fechar.svg) no-repeat;
+        background-position: left center;
+        padding-left: 25px
+    }
+    section#list-content section#filter-options h3 {
+        font-size: 1.6em;
+        color: rgba(0, 0, 0, 0.87);
+        background: url(https://newpoi-assets.apontador.com.br/website/images/seta_cima.svg) no-repeat;
+        background-position: right center
+    }
+    section#list-content section#filter-options h3.open {
+        background: url(https://newpoi-assets.apontador.com.br/website/images/seta_baixo.svg) no-repeat;
+        background-position: right center
+    }
+    section#list-content section#filter-options ul {
+        display: none;
+        max-height: 220px
+    }
+    section#list-content section#filter-options ul.open {
+        display: block
+    }
+    section#list-content section#filter-options ul li h4 {
+        color: rgba(0, 0, 0, 0.54)
+    }
+    section#list-content section.place .place-avaliation {
+        width: 100%;
+        margin-bottom: 8px
+    }
+    section#paginator ul li {
+        display: none
+    }
+    section#paginator ul li.first,
+    section#paginator ul li.active,
+    section#paginator ul li.last {
+        display: block
+    }
+    body.featured-list section#list-header .text {
+        height: 80%
+    }
+}
+
+@media screen and (max-width:600px) {
+    body.featured-list section#list-content .grid-list .place {
+        width: 50%
+    }
+}
+
+@media screen and (max-width:400px) {
+    body.featured-list section#list-content .grid-list .place {
+        width: 100%
+    }
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #424242;
+    color: #fff
+}
+
+footer a {
+    color: #fff
+}
+
+footer h3 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-bottom: 16px
+}
+
+footer ul {
+    float: left
+}
+
+footer section#category-section {
+    padding-top: 32px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #5f5f5f
+}
+
+footer section#category-section li {
+    margin-right: 8px;
+    padding: 8px 0;
+    margin-bottom: 16px
+}
+
+footer section#category-section li:last-child {
+    margin-right: 0
+}
+
+footer section#category-section li span {
+    background-color: #6c6c6c;
+    border-radius: 40px;
+    padding: 8px;
+    font-size: 1.4em
+}
+
+footer section#category-section li#see-all-categories a {
+    color: #ff8207
+}
+
+footer section#category-section li#see-all-categories a span {
+    text-transform: uppercase;
+    padding: 9px 16px;
+    font-weight: 600;
+    background: 0
+}
+
+footer section#about-section {
+    padding-top: 32px
+}
+
+footer section#about-section h3 {
+    margin-bottom: 24px
+}
+
+footer section#about-section .flex-box {
+    justify-content: center
+}
+
+footer section#about-section .flex-box .box {
+    max-width: 182px;
+    height: auto;
+    margin-right: 90px
+}
+
+footer section#about-section .flex-box .box:last-child {
+    margin-right: 0
+}
+
+footer section#about-section .flex-box .box#for-your-business {
+    margin-bottom: 24px;
+    margin-right: 0
+}
+
+footer section#about-section .flex-box ul.component li {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 1.4em
+}
+
+footer section#about-section .flex-box #social ul.component li {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px
+}
+
+footer section#about-section #copyright {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 46px 0 0
+}
+
+@media screen and (max-width:768px) {
+    footer section#category-section {
+        border-bottom: 0
+    }
+    footer section#category-section li:last-child {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+        border-top: 1px solid #5f5f5f;
+        margin-top: 16px;
+        padding-top: 18px
+    }
+    footer section#about-section .flex-box {
+        display: block;
+        width: 100%;
+        float: left
+    }
+    footer section#about-section .flex-box .box {
+        float: left;
+        margin: 0;
+        width: 100%;
+        max-width: 100%
+    }
+    footer section#about-section .flex-box .box#about {
+        padding: 12px 0;
+        border-top: 1px solid #5f5f5f
+    }
+    footer section#about-section .flex-box .box#for-your-business {
+        margin-bottom: 0;
+        padding: 12px 0;
+        border-top: 1px solid #5f5f5f
+    }
+    footer section#about-section .flex-box .box#blogs {
+        padding: 12px 0;
+        border-top: 1px solid #5f5f5f;
+        border-bottom: 1px solid #5f5f5f;
+        margin-bottom: 32px
+    }
+    footer section#about-section h3 {
+        margin-bottom: 0
+    }
+    footer section#about-section .flex-box .box ul {
+        display: none
+    }
+    footer section#about-section .flex-box .box ul.open {
+        display: block;
+        padding: 10px 0 0
+    }
+    footer section#about-section .flex-box .box#social h3 {
+        text-align: center;
+        margin-bottom: 24px
+    }
+    footer section#about-section .flex-box .box#social ul {
+        display: flex;
+        float: left;
+        width: 100%;
+        justify-content: center
+    }
+    footer section#about-section .flex-box #social ul.component li {
+        margin: 0;
+        width: 36px;
+        height: 36px;
+        margin-right: 16px
+    }
+    footer section#about-section .flex-box #social ul.component li:last-child {
+        margin-right: 0
+    }
+    footer section#about-section .flex-box #social ul.component li img {
+        width: 100%;
+        height: auto
+    }
+    footer section#about-section #copyright {
+        margin: 30px 0
+    }
+}

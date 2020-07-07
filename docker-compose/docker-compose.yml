@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'apontadordb'
+      MYSQL_USER: 'springboot'
+      MYSQL_PASSWORD: '123456'
+      MYSQL_ROOT_PASSWORD: 'usuario'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - ./mysqldata:/var/lib/mysql
+
+volumes:
+  my-db:
